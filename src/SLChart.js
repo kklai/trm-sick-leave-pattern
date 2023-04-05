@@ -176,14 +176,14 @@ function SLChart() {
  	    		var isMax = d == max[thing.type];
  	    		var ypos = thing.type == "Cumulative SL" ? yCum(d["Cumulative SL"]) : yDay(d["SLC Total"]);
  	    		var cls = "g-abs-label g-labels g-label-" + i + " g-" + thing.type.toLowerCase().split(" ").join("-");
- 	    		cls = isMax ? cls + " g-active-always" : cls;
+ 	    		cls = isMax ? cls + " g-active-always g-label-max" : cls;
  	    		cls = last ? cls + " g-label-last" : cls;
  	    		var labeldiv = labelcont.append("div")
  	    			.attr("class", cls)
  	    			.style("top", ypos + "px")
  	    			.style("left", xBar(d["Issue Date"]) + "px")
 
- 	    		var textx = last && thing.type == "Cumulative SL" ? 0 : thing.type == "Cumulative SL" ? -30 : -19;
+ 	    		var textx = max && thing.type == "SLC Total" ? -40 : last && thing.type == "Cumulative SL" ? 0 : thing.type == "Cumulative SL" ? -30 : -19;
  	    		var texty = -35;
 
  	    		var str = "<div class='g-inner'><div class='g-text-bg'>" + thing.type + "</div></div>";

@@ -175,7 +175,7 @@ header p {
   position: absolute;
   top: 0;
   left: 0;
-  pointer-events: none;
+/*  pointer-events: none;*/
 }
 
 .g-abs-label {
@@ -188,6 +188,10 @@ header p {
 
 .g-label-last.g-cumulative-sl {
   text-align: left;
+}
+
+.g-label-max.g-slc-total {
+  text-align: right;
 }
 
 .g-abs-label .g-inner:first-child {
