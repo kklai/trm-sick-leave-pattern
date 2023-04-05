@@ -183,7 +183,7 @@ function SLChart() {
  	    			.style("top", ypos + "px")
  	    			.style("left", xBar(d["Issue Date"]) + "px")
 
- 	    		var textx = max && thing.type == "SLC Total" ? -40 : last && thing.type == "Cumulative SL" ? 0 : thing.type == "Cumulative SL" ? -30 : -19;
+ 	    		var textx = isMax && thing.type == "SLC Total" ? -40 : last && thing.type == "Cumulative SL" ? 0 : thing.type == "Cumulative SL" ? -30 : -19;
  	    		var texty = -35;
 
  	    		var str = "<div class='g-inner'><div class='g-text-bg'>" + thing.type + "</div></div>";
