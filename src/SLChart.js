@@ -1,6 +1,8 @@
 import React, {Component, useEffect} from 'react';
 import * as d3 from "d3";
-import data from './34236.json';
+import data from './data/34585.json';
+import action_log from './data/action_log.json';
+import code from './data/code.json';
 
 function SLChart() {
 
@@ -10,18 +12,16 @@ function SLChart() {
 	  }, []);
 
 	function drawChart() {
-		var year;
+		console.clear();
+		var ref = "34585";
+		var action_log_filtered = action_log.filter(d => d["TRM Ref"] == ref);
+		data = data.filter(d => d["Issue Date"]);
+
 		var doc;
 		var doclabels = [];
 		var doclabelgroup = [];
 		data.forEach(function(d,i){
-			d.date = new Date(d["Issue Date"]);
-			var thisyear = d["Issue Date"].split("-")[0];
-			if (year != thisyear) {
-				year = thisyear;
-				d.addyear = true;
-			}
-
+			d.date = d["Issue Date"];
 			var thisdoc = d["Doctor Label"];
 			if (i != 0) {
 				if (doc != thisdoc || (i == data.length - 1)) {
@@ -53,14 +53,64 @@ function SLChart() {
 		height -= margin.top + margin.bottom;
 		width -= margin.left + margin.right;
 
+		var alldates = data.map(d => d.date);
+		action_log_filtered.forEach(function(d){
+			alldates.push(d["Action Date"])
+		})
+		alldates = alldates.sort((a,b) => +new Date(a) - +new Date(b));
+
+		const yearmarks = [];
+		var yearrow = [], curyear;
+		var addyears = [];
+		alldates.forEach(function(d,i){
+			var year = d.split("-")[0];
+			if (yearrow.length == 0) {
+				yearrow = [d]
+				curyear = year;
+			}
+
+			if (curyear != year || i == alldates.length - 1) {
+				yearrow.push(d);
+				yearmarks.push(yearrow);
+				yearrow = [];
+				curyear = year;
+			}
+
+			if (curyear != year) {
+				curyear = year;
+				addyears.push(true);
+			} else {
+				addyears.push(false);
+			}
+		})
+
 		const dateRange = data.map(d => d["Issue Date"]);
 		const yRange = data.map(d => d["SLC Total"]);
+		const fullDateRange = alldates;
+		const divider = width < 600 ? 6 : 10
+		const datenthshow = Math.round(fullDateRange.length/divider);
 
-		const xBar = d3.scaleBand().domain(dateRange).range([0,width]).padding(0.1);
-		const x = d3.scaleOrdinal().domain(dateRange).range([0,width]);
-		const format = d3.timeFormat("%b %Y");
+		const xBar = d3.scaleBand().domain(fullDateRange).range([0,width]).padding(0.1);
+		const formatWYear = d3.timeFormat("%b %Y");
+		const format = d3.timeFormat("%b");
+		const tickDates = fullDateRange.filter(function(d,i) {
+			var day = d.split("-")[2];
+			var month = d.split("-")[1];
+			return i == 0 || i == fullDateRange.length - 1 || day == 1;
+		})
+		const tickValues = alldates.filter((d,i) => i == 0 || i == tickDates.length - 1 || i%datenthshow == 0)
 		const xAxis = d3.axisBottom(xBar)
-			// .tickFormat(format);
+			.tickValues(tickValues)
+			.tickFormat(function(d,i){
+				var ddate = new Date(d)
+				const format1 = d3.timeFormat("%b %d, %Y");
+				const format2 = d3.timeFormat("%b %d");
+				if (i == 0 || i == tickDates.length - 1 || addyears[i]) {
+					return format1(ddate)
+				} else {
+					return format2(ddate)
+				}
+			});
 
 		const yDay = d3.scaleLinear().domain([0,d3.max(data, d => +d["SLC Total"])]).range([height,0]);
 		const yCum = d3.scaleLinear().domain([0,d3.max(data, d => +d["Cumulative SL"])]).range([height,0]);
@@ -71,8 +121,8 @@ function SLChart() {
 		// add doctor labels
 		var doctorg = svg.append("g").attr("class", "g-doctor-label");
 		doclabels.forEach(function(d){
-			var xstart = xBar(d[0]["Issue Date"])
-			var xend = xBar(d[d.length - 1]["Issue Date"]) + xBar.bandwidth() + 1;
+			var xstart = xBar(d[0].date)
+			var xend = xBar(d[d.length - 1].date) + xBar.bandwidth() + 1;
 
 			var pointerHeight = 0;
 			var pointerEnd = height + margin.bottom - 10;
@@ -90,30 +140,46 @@ function SLChart() {
 
 		})
 
-
      	var xaxis = svg.append("g")
      		.attr("class", "x axis")
      		.attr("transform", "translate(0," + height + ")")
      		.call(xAxis);
 
-     	xaxis.selectAll(".tick")
-     		.attr("class", function(d,i){
-     			var cls = "tick date-" + d;
-     			cls = data[i].addyear ? cls += " g-show-always" : cls;
-     			return cls;
-     		})
-
      	xaxis.selectAll("text")
      		.attr("text-anchor", "end")
      		.attr("transform", "rotate(-60) translate(-10,-5)")
-     		.text(function(d,i) {
-     			if (data[i].addyear) {
-     				return d;
+
+     	xaxis.selectAll(".tick")
+     		.attr("class", function(d,i){
+     			var el = d3.select(this);
+     			var text = el.text();
+     			if (i == 0 || i == tickDates.length - 1) {
+     				return "g-always-show tick"
      			} else {
-     				return d.split("-")[1] + "-" + d.split("-")[2];
+     				return "tick"
      			}
-     			
      		})
+
+     	var yeartick = svg.append("g").attr("class", "g-year-ticks");
+
+     	yearmarks.forEach(function(d){
+     		var pos_a = xBar(d[0]) + (xBar.bandwidth()/2) 
+     		var pos_b = xBar(d[1]) + (xBar.bandwidth()/2) 
+     		var pos = (pos_a + pos_b)/2;
+
+     		if ((pos_b - pos_a) > 20) {
+     			yeartick.append("text")
+     				.attr("x", pos)
+     				.attr("y", height + 85)
+     				.attr("text-anchor", "middle")
+     				.text(d[0].split("-")[0])
+     		}
+
+     		yeartick.append("path")
+     			.attr("transform", "translate(" + pos_b + "," + (height+77) + ")")
+     			.attr("d", "M0,0 L0,10")
+     			.style("stroke", "#999")
+     	})
 
      	svg.append("g")
      		.attr("class", "y axis left")
@@ -131,8 +197,8 @@ function SLChart() {
  	    .join("rect")
  	      .attr("class", "g-slc-fill")
  	      .attr("id", (d,i) => "rect-" + i)
- 	      .attr("data-date", (d,i) => d["Issue Date"])
- 	      .attr("x", d => xBar(d["Issue Date"]))
+ 	      .attr("data-date", (d,i) => d.date)
+ 	      .attr("x", d => xBar(d.date))
  	      .attr("y", d => yDay(d["SLC Total"]))
  	      .attr("height", d => yDay(0) - yDay(d["SLC Total"]))
  	      .attr("width", xBar.bandwidth())
@@ -142,7 +208,7 @@ function SLChart() {
 
  	    let line = d3.line()
  	    	.curve(d3.curveLinear)
- 	    	.x(d => xBar(d["Issue Date"]) + xBar.bandwidth()/2)
+ 	    	.x(d => xBar(d.date) + xBar.bandwidth()/2)
  	    	.y(d => yCum(d["Cumulative SL"]))
 
  	    svg.append("g")
@@ -156,7 +222,7 @@ function SLChart() {
  	    	"SLC Total": data.filter(d => d["SLC Total"] == d3.max(data, d => +d["SLC Total"]))[0],
  	    	"Cumulative SL": data.filter(d => d["Cumulative SL"] == d3.max(data, d => +d["Cumulative SL"]))[0]
  	    }
- 	    
+ 	    	
  	    var addlabels = [
  	    	{type: "SLC Total"},
  	    	{type: "Cumulative SL"}
@@ -173,7 +239,7 @@ function SLChart() {
  	    	data.forEach(function(d,i){
  	    		// var d = thing.d;
  	    		var last = i == data.length - 1;
- 	    		var isMax = d == max[thing.type];
+ 	    		var isMax = d["Issue Date"] == max[thing.type]["Issue Date"];
  	    		var ypos = thing.type == "Cumulative SL" ? yCum(d["Cumulative SL"]) : yDay(d["SLC Total"]);
  	    		var cls = "g-abs-label g-labels g-label-" + i + " g-" + thing.type.toLowerCase().split(" ").join("-");
  	    		cls = isMax ? cls + " g-active-always g-label-max" : cls;
@@ -181,15 +247,17 @@ function SLChart() {
  	    		var labeldiv = labelcont.append("div")
  	    			.attr("class", cls)
  	    			.style("top", ypos + "px")
- 	    			.style("left", xBar(d["Issue Date"]) + "px")
+ 	    			.style("left", xBar(d.date) + "px")
 
- 	    		var textx = isMax && thing.type == "SLC Total" ? -40 : last && thing.type == "Cumulative SL" ? 0 : thing.type == "Cumulative SL" ? -30 : -19;
+ 	    		var textx = 0
+ 	    		// isMax && thing.type == "SLC Total" ? -30 : last && thing.type == "Cumulative SL" ? 0 : thing.type == "Cumulative SL" ? -20 : -8;
  	    		var texty = -35;
 
  	    		var str = "<div class='g-inner'><div class='g-text-bg'>" + thing.type + "</div></div>";
  	    		str += "<div class='g-inner'><div class='g-text-bg'>" + d[thing.type] + " days</div></div>";
 
  	    		labeldiv.append("div")
+ 	    			.attr("class", "g-label-a")
  	    			.style("margin-top", texty + "px")
  	    			.style("margin-left", textx + "px")
  	    			.html(str)
@@ -223,6 +291,38 @@ function SLChart() {
  	    	d3.selectAll(".g-labels").classed("g-active", false);
  	        d3.select(this).style("fill", "teal") 	    
  	        d3.selectAll(".x.axis .tick").classed("g-highlight", false);
+ 	   	}	
+
+ 	   	var actionlogg = sel.append("div").attr("class", "g-action-log-cont")
+ 	   	action_log_filtered.forEach(function(d){
+ 	   		var logg = actionlogg.append("div")
+ 	   			.attr("class", "g-action-log")
+ 	   			.style("top", (height + margin.top - 30) + "px")
+ 	   			.style("left", (xBar(d["Action Date"]) + margin.left) + "px")
+
+ 	   		var fullcode = code.filter(a => a["Strategy-code"] == d.Code)[0];
+ 	   		fullcode = fullcode ? fullcode.Strategy : "";
+ 	   		logg
+ 	   			.append("div")
+ 	   			.attr("class", "g-action-log-inner")
+ 	   			.text(d.Code)
+ 	   			.attr("data-code", d.Code)
+ 	   			.attr("data-fullcode", fullcode)
+ 	   			.attr("data-date", d["Action Date"])
+ 	   			.on("mouseover", onMouseOverActionLog)
+ 	   			.on("mouseout", onMouseOutActionLog)
+ 	   	})
+
+ 	   	function onMouseOverActionLog(d){
+ 	   		var el = d3.select(this)
+ 	   		el.classed("g-action-highlighted", true)
+ 	   		el.html(el.attr("data-fullcode") + "<br>" + el.attr("data-date"))
+ 	   	}
+
+ 	   	function onMouseOutActionLog(d){
+ 	   		var el = d3.select(this)
+ 	   		el.classed("g-action-highlighted", false)
+ 	   		el.html(el.attr("data-code"))
  	   	}
 
     }
@@ -233,7 +333,7 @@ function SLChart() {
 	  	<div className="picker">
 	  	  <label>TRM Reference</label>
 	  	  <select name="ref" id="ref">
-	  	    <option value="34236">34236</option>
+	  	    <option value="34585">34585</option>
 	  	  </select>
 	  	</div>
 	    <div className="g-chart"></div>
