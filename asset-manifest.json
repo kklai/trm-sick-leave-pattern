@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/trm-sick-leave-pattern/static/css/main.fd3a68ea.css",
-    "main.js": "/trm-sick-leave-pattern/static/js/main.72f6a851.js",
+    "main.css": "/trm-sick-leave-pattern/static/css/main.6950616c.css",
+    "main.js": "/trm-sick-leave-pattern/static/js/main.76d7a544.js",
     "index.html": "/trm-sick-leave-pattern/index.html",
-    "main.fd3a68ea.css.map": "/trm-sick-leave-pattern/static/css/main.fd3a68ea.css.map",
-    "main.72f6a851.js.map": "/trm-sick-leave-pattern/static/js/main.72f6a851.js.map"
+    "main.6950616c.css.map": "/trm-sick-leave-pattern/static/css/main.6950616c.css.map",
+    "main.76d7a544.js.map": "/trm-sick-leave-pattern/static/js/main.76d7a544.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd3a68ea.css",
-    "static/js/main.72f6a851.js"
+    "static/css/main.6950616c.css",
+    "static/js/main.76d7a544.js"
   ]
 }
