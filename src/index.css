@@ -183,10 +183,25 @@ header p {
   line-height: 1.1;
   font-weight: 100;
   text-align: center;
+  z-index: 1000;
+  overflow: visible;
+}
+
+.g-bold {
+  font-weight: 700;
 }
 
 .g-label-a {
   transform: translate(-45%, 0);
+  background: rgba(0,0,0,1);
+  color: rgba(255,255,255,0.9);
+  padding: 3px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.g-label-a .g-slc-total {
+  color: rgba(0,204,204,0.8);
 }
 
 /*.g-label-last.g-cumulative-sl {
@@ -239,10 +254,18 @@ header p {
 
 .g-action-log {
   position: absolute;
-  
   user-select: none;
   cursor: pointer;
   font-size: 12px;
+}
+
+.g-action-log-dot {
+  width: 6px;
+  height: 6px;
+  background: rgba(0,0,0,1);
+  position: absolute;
+  border-radius: 100%;
+  border: 1px solid #fff;
 }
 
 .g-action-log-inner {

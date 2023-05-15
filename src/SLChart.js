@@ -54,10 +54,34 @@ function SLChart() {
 		width -= margin.left + margin.right;
 
 		var alldates = data.map(d => d.date);
-		action_log_filtered.forEach(function(d){
-			alldates.push(d["Action Date"])
-		})
 		alldates = alldates.sort((a,b) => +new Date(a) - +new Date(b));
+
+		var actiondates = [];
+		alldates.forEach(function(d,i){
+			actiondates.push({
+				type: "all",
+				date: d,
+				i: i,
+			})
+		})
+		action_log_filtered.forEach(function(d,i){
+			actiondates.push({
+				type: "action",
+				date: d["Action Date"],
+				i: i
+			})
+		})
+		actiondates = actiondates.sort((a,b) => +new Date(a.date) - +new Date(b.date));
+		actiondates.forEach(function(d,i){
+			if (d.type == "action") {
+				var filtered = actiondates.slice(0,i);
+				filtered = filtered.filter(a => a.type != "action");
+				action_log_filtered[d.i].usedate = filtered[filtered.length - 1].date; 
+				var use = filtered[filtered.length - 1];
+				action_log_filtered[d.i].usedate = use.date; 
+				action_log_filtered[d.i].usey = data[use.i]["Cumulative SL"];
+			}
+		})		
 
 		const yearmarks = [];
 		var yearrow = [], curyear;
@@ -105,7 +129,7 @@ function SLChart() {
 				var ddate = new Date(d)
 				const format1 = d3.timeFormat("%b %d, %Y");
 				const format2 = d3.timeFormat("%b %d");
-				if (i == 0 || i == tickDates.length - 1 || addyears[i]) {
+				if (i == 0 | d == tickValues[tickValues.length - 1] || addyears[i]) {
 					return format1(ddate)
 				} else {
 					return format2(ddate)
@@ -224,8 +248,8 @@ function SLChart() {
  	    }
  	    	
  	    var addlabels = [
+ 	    	{type: "Cumulative SL"},
  	    	{type: "SLC Total"},
- 	    	{type: "Cumulative SL"}
  	    ];
 
  	    var labelcont = sel.append("div")
@@ -235,45 +259,36 @@ function SLChart() {
  	    	.style("width", width + "px")
  	    	.style("height", height + "px")
 
- 	    addlabels.forEach(function(thing){
- 	    	data.forEach(function(d,i){
- 	    		// var d = thing.d;
- 	    		var last = i == data.length - 1;
- 	    		var isMax = d["Issue Date"] == max[thing.type]["Issue Date"];
- 	    		var ypos = thing.type == "Cumulative SL" ? yCum(d["Cumulative SL"]) : yDay(d["SLC Total"]);
- 	    		var cls = "g-abs-label g-labels g-label-" + i + " g-" + thing.type.toLowerCase().split(" ").join("-");
- 	    		cls = isMax ? cls + " g-active-always g-label-max" : cls;
- 	    		cls = last ? cls + " g-label-last" : cls;
- 	    		var labeldiv = labelcont.append("div")
- 	    			.attr("class", cls)
- 	    			.style("top", ypos + "px")
- 	    			.style("left", xBar(d.date) + "px")
+    	data.forEach(function(d,i){
+    		var last = i == data.length - 1;
+    		var cls = "g-abs-label g-labels g-label-" + i;
+    		var ypos = yDay(d["SLC Total"])
+    		var labeldiv = labelcont.append("div")
+    			.attr("class", cls)
+    			.style("top", -50 + "px")
+    			.style("left", xBar(d.date) + "px")
 
- 	    		var textx = 0
- 	    		// isMax && thing.type == "SLC Total" ? -30 : last && thing.type == "Cumulative SL" ? 0 : thing.type == "Cumulative SL" ? -20 : -8;
- 	    		var texty = -35;
+    		var str = ""
+    		str += "<div class='g-bold'>" + d.date + "</div>";
+    		addlabels.forEach(function(thing){
+    			str += "<div class='g-" + thing.type.toLowerCase().split(" ").join("-") + "'>" + thing.type + ": " + d[thing.type] + "</div>";
+    		})
 
- 	    		var str = "<div class='g-inner'><div class='g-text-bg'>" + thing.type + "</div></div>";
- 	    		str += "<div class='g-inner'><div class='g-text-bg'>" + d[thing.type] + " days</div></div>";
+    		labeldiv.append("div")
+    			.attr("class", "g-label-a")
+    			.html(str)
 
- 	    		labeldiv.append("div")
- 	    			.attr("class", "g-label-a")
- 	    			.style("margin-top", texty + "px")
- 	    			.style("margin-left", textx + "px")
- 	    			.html(str)
+    		labeldiv.append("div")
+    			.attr("class", "g-dot")
+    			.style("top", (yCum(d["Cumulative SL"]) + 46) + "px")
+    			.style("left", (xBar.bandwidth()/2 - 3) + "px");
 
- 	    		if (thing.type == "Cumulative SL") {
- 	    			labeldiv.append("div")
- 	    				.attr("class", "g-dot")
- 	    				.style("left", ((xBar.bandwidth()/2)-2.5) + "px")
-
- 	    		} else {
- 	    			labeldiv.append("div")
- 	    				.attr("class", "g-pointer")
- 	    				.style("left", (xBar.bandwidth()/2) + "px");
- 	    		}
- 	    	})
- 	    })
+			labeldiv.append("div")
+				.attr("class", "g-pointer")
+				.style("height", (ypos+8) + "px")
+				.style("top", (42) + "px")
+				.style("left", (xBar.bandwidth()/2) + "px");
+    	})
 
  	    function onMouseOver(d){
  	        var el = d3.select(this)
@@ -282,7 +297,6 @@ function SLChart() {
  	        var labelel = d3.selectAll(".g-label-" + id)
  	        labelel.classed("g-active", true);
  	        labelel.raise();
-
  	        var date = el.attr("data-date");
  	        d3.select(".x.axis .date-" + date).classed("g-highlight", true);
  	    }
@@ -297,8 +311,8 @@ function SLChart() {
  	   	action_log_filtered.forEach(function(d){
  	   		var logg = actionlogg.append("div")
  	   			.attr("class", "g-action-log")
- 	   			.style("top", (height + margin.top - 30) + "px")
- 	   			.style("left", (xBar(d["Action Date"]) + margin.left) + "px")
+ 	   			.style("top", (yCum(d.usey) + margin.top - 25) + "px")
+ 	   			.style("left", (xBar(d.usedate) + margin.left) + "px")
 
  	   		var fullcode = code.filter(a => a["Strategy-code"] == d.Code)[0];
  	   		fullcode = fullcode ? fullcode.Strategy : "";
