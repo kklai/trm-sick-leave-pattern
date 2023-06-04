@@ -1,0 +1,1802 @@
+[
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "",
+    "Issue Date": "2020-08-28",
+    "Diagnosis": "",
+    "Doctor Label": "DOA",
+    "SLC Total": "",
+    "Year-Month": "",
+    "Cumulative SL": ""
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Caritas Medical Centre",
+    "Issue Date": "2020-12-01",
+    "Diagnosis": "eye condition",
+    "Doctor Label": "HA-EYE",
+    "SLC Total": "1",
+    "Year-Month": " December 2020",
+    "Cumulative SL": "1"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2020-12-01",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2020",
+    "Cumulative SL": "5"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2020-12-05",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2020",
+    "Cumulative SL": "9"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2020-12-09",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " December 2020",
+    "Cumulative SL": "14"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2020-12-14",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2020",
+    "Cumulative SL": "18"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2020-12-18",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2020",
+    "Cumulative SL": "22"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2020-12-22",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2020",
+    "Cumulative SL": "26"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Lady Trench General Out Patient Clinic",
+    "Issue Date": "2020-12-26",
+    "Diagnosis": "dizziness post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2020",
+    "Cumulative SL": "30"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2020-12-30",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " December 2020",
+    "Cumulative SL": "35"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-01-04",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2021",
+    "Cumulative SL": "39"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "South Kwai Chung Jockey Club GOPC",
+    "Issue Date": "2021-01-08",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2021",
+    "Cumulative SL": "43"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-01-12",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2021",
+    "Cumulative SL": "47"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-01-16",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2021",
+    "Cumulative SL": "51"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-01-24",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " January 2021",
+    "Cumulative SL": "56"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-01-25",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2021",
+    "Cumulative SL": "60"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-01-29",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2021",
+    "Cumulative SL": "64"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-02-02",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2021",
+    "Cumulative SL": "68"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-02-06",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2021",
+    "Cumulative SL": "72"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-02-10",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "6",
+    "Year-Month": " February 2021",
+    "Cumulative SL": "78"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-02-16",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2021",
+    "Cumulative SL": "82"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "South Kwai Chung Jockey Club GOPC",
+    "Issue Date": "2021-02-20",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2021",
+    "Cumulative SL": "86"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "South Kwai Chung Jockey Club GOPC",
+    "Issue Date": "2021-02-24",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " February 2021",
+    "Cumulative SL": "91"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Kwong Wah Hospital",
+    "Issue Date": "2021-02-25",
+    "Diagnosis": "neurosurgical condition",
+    "Doctor Label": "HA-NS",
+    "SLC Total": "5",
+    "Year-Month": " February 2021",
+    "Cumulative SL": "96"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Yan Chai Hospital",
+    "Issue Date": "2021-03-01",
+    "Diagnosis": "dizziness post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2021",
+    "Cumulative SL": "100"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-03-05",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2021",
+    "Cumulative SL": "104"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-03-09",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " March 2021",
+    "Cumulative SL": "109"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-03-13",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2021",
+    "Cumulative SL": "113"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-03-17",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " March 2021",
+    "Cumulative SL": "118"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-03-22",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2021",
+    "Cumulative SL": "122"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Yan Chai Hospital",
+    "Issue Date": "2021-03-26",
+    "Diagnosis": "dizziness post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2021",
+    "Cumulative SL": "126"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-03-30",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2021",
+    "Cumulative SL": "130"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Lady Trench General Out Patient Clinic",
+    "Issue Date": "2021-04-03",
+    "Diagnosis": "dizziness post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2021",
+    "Cumulative SL": "134"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-04-07",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " April 2021",
+    "Cumulative SL": "139"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-04-12",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2021",
+    "Cumulative SL": "143"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Yan Chai Hospital",
+    "Issue Date": "2021-04-16",
+    "Diagnosis": "dizziness post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2021",
+    "Cumulative SL": "147"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-04-20",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2021",
+    "Cumulative SL": "151"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-04-24",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2021",
+    "Cumulative SL": "155"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-04-28",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " April 2021",
+    "Cumulative SL": "160"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-05-03",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2021",
+    "Cumulative SL": "164"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-05-07",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2021",
+    "Cumulative SL": "168"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-05-11",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2021",
+    "Cumulative SL": "172"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-05-15",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2021",
+    "Cumulative SL": "176"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Lady Trench General Out Patient Clinic",
+    "Issue Date": "2021-05-19",
+    "Diagnosis": "dizziness post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2021",
+    "Cumulative SL": "180"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-05-22",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2021",
+    "Cumulative SL": "184"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-05-26",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " May 2021",
+    "Cumulative SL": "189"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Queen Elizabeth Hospital",
+    "Issue Date": "2021-05-27",
+    "Diagnosis": "medical condition",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "1",
+    "Year-Month": " May 2021",
+    "Cumulative SL": "190"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-05-31",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2021",
+    "Cumulative SL": "194"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-06-04",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2021",
+    "Cumulative SL": "198"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-06-08",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2021",
+    "Cumulative SL": "202"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-06-12",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2021",
+    "Cumulative SL": "206"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-06-16",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " June 2021",
+    "Cumulative SL": "211"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-06-21",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2021",
+    "Cumulative SL": "215"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-06-25",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2021",
+    "Cumulative SL": "219"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-06-29",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2021",
+    "Cumulative SL": "223"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "South Kwai Chung Jockey Club GOPC",
+    "Issue Date": "2021-07-03",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2021",
+    "Cumulative SL": "227"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-07-06",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2021",
+    "Cumulative SL": "231"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-07-10",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2021",
+    "Cumulative SL": "235"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-07-14",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " July 2021",
+    "Cumulative SL": "240"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "South Kwai Chung Jockey Club GOPC",
+    "Issue Date": "2021-07-19",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2021",
+    "Cumulative SL": "244"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-07-23",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2021",
+    "Cumulative SL": "248"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-07-27",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2021",
+    "Cumulative SL": "252"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-07-31",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " July 2021",
+    "Cumulative SL": "257"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-08-04",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " August 2021",
+    "Cumulative SL": "262"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-08-09",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2021",
+    "Cumulative SL": "266"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-08-13",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2021",
+    "Cumulative SL": "270"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-08-17",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2021",
+    "Cumulative SL": "274"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-08-21",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2021",
+    "Cumulative SL": "278"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-08-25",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " August 2021",
+    "Cumulative SL": "283"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-08-30",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2021",
+    "Cumulative SL": "287"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-09-03",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "291"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-09-07",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "295"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-09-11",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "299"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-09-15",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "304"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-09-20",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "308"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-09-24",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "312"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-09-28",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "316"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-10-02",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "321"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-10-07",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "325"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-10-11",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "329"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Yan Chai Hospital",
+    "Issue Date": "2021-10-15",
+    "Diagnosis": "ENT FU",
+    "Doctor Label": "HA-ENT",
+    "SLC Total": "1",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "330"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "South Kwai Chung Jockey Club GOPC",
+    "Issue Date": "2021-10-15",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "334"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-10-19",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "338"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-10-23",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "342"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-10-27",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "347"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-11-01",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "351"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "South Kwai Chung Jockey Club GOPC",
+    "Issue Date": "2021-11-05",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "355"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-11-09",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "359"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-11-13",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "363"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-11-17",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "368"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-11-22",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "372"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-11-26",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "376"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-11-30",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "380"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-12-04",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "384"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-12-08",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "389"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-12-13",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "393"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-12-17",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "397"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-12-20",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "401"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-12-24",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "405"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2021-12-29",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "410"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-01-03",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "414"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-01-07",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "418"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "South Kwai Chung Jockey Club GOPC",
+    "Issue Date": "2022-01-11",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "422"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-01-15",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "426"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-01-19",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "430"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-01-22",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "434"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-01-26",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "439"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-01-31",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "443"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-02-04",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "447"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-02-08",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "451"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-02-12",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "455"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Yan Chai Hospital",
+    "Issue Date": "2022-02-16",
+    "Diagnosis": "dizziness post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "460"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Yan Chai Hospital",
+    "Issue Date": "2022-02-21",
+    "Diagnosis": "dizziness post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "464"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Kwong Wah Hospital",
+    "Issue Date": "2022-02-24",
+    "Diagnosis": "Post concussion syndrome",
+    "Doctor Label": "HA-NS",
+    "SLC Total": "1",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "465"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Yan Chai Hospital",
+    "Issue Date": "2022-02-25",
+    "Diagnosis": "dizziness post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "469"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Yan Chai Hospital",
+    "Issue Date": "2022-03-01",
+    "Diagnosis": "dizziness post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "473"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Central Kowloon Health Centre",
+    "Issue Date": "2022-03-05",
+    "Diagnosis": "dizziness",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "477"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-03-09",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "482"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-03-14",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "486"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-03-17",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "490"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-03-21",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "494"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Lee Kee Memorial Dispensary",
+    "Issue Date": "2022-03-25",
+    "Diagnosis": "dizziness",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "498"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Lee Kee Memorial Dispensary",
+    "Issue Date": "2022-03-29",
+    "Diagnosis": "dizziness",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "503"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Yan Chai Hospital",
+    "Issue Date": "2022-04-04",
+    "Diagnosis": "ent condition",
+    "Doctor Label": "HA-ENT",
+    "SLC Total": "1",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "504"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-04-04",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "508"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-04-07",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "512"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-04-11",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "7",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "519"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-04-19",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "523"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Tsing Yi Cheung Hong General Out Patient Clinic",
+    "Issue Date": "2022-04-22",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "527"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-04-26",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "6",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "533"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-05-03",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "537"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-05-06",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "541"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-05-06",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "545"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-05-10",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "550"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-05-16",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "554"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-05-16",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "558"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-05-20",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "562"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-05-20",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "566"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-05-24",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "570"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out PatientOlinis",
+    "Issue Date": "2022-05-24",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "574"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-05-28",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "578"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out PatientOlinis",
+    "Issue Date": "2022-05-28",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "582"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-06-01",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "6",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "588"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out PatientClinic",
+    "Issue Date": "2022-06-01",
+    "Diagnosis": "Post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "6",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "594"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-06-07",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "598"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out PatientOlinis",
+    "Issue Date": "2022-06-07",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "602"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-06-11",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "606"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out PatientClinic",
+    "Issue Date": "2022-06-11",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "610"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-06-15",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "615"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-06-20",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "619"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out PatientClinic",
+    "Issue Date": "2022-06-20",
+    "Diagnosis": "Post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "623"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-06-24",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "627"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out PatientClinic",
+    "Issue Date": "2022-06-24",
+    "Diagnosis": "Post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "631"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polychnie General Out Patient Clinic",
+    "Issue Date": "2022-06-28",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "635"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out PatientClinic",
+    "Issue Date": "2022-06-28",
+    "Diagnosis": "Post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " June 2022",
+    "Cumulative SL": "639"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Lady Trench General Out Patient Clinic",
+    "Issue Date": "2022-07-03",
+    "Diagnosis": "dizziness/headache post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "643"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Lady Trench General Out Patient Clinic",
+    "Issue Date": "2022-07-03",
+    "Diagnosis": "dizziness/headache post head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "647"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient Clinic",
+    "Issue Date": "2022-07-07",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "651"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out PatientOlinis",
+    "Issue Date": "2022-07-07",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "655"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient Clinic",
+    "Issue Date": "2022-07-11",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "659"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-07-15",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "663"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-07-15",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "667"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient Clinic",
+    "Issue Date": "2022-07-19",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "671"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out PatientClinic",
+    "Issue Date": "2022-07-19",
+    "Diagnosis": "Post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "675"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient Clinic",
+    "Issue Date": "2022-07-23",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "679"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient Clinic",
+    "Issue Date": "2022-07-27",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "684"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out-patient clinic",
+    "Issue Date": "2022-07-27",
+    "Diagnosis": "Post concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "689"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient Clinic",
+    "Issue Date": "2022-08-01",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "693"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Princess Margaret Hospital",
+    "Issue Date": "2022-08-03",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "697"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient Clinic",
+    "Issue Date": "2022-08-05",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "701"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient",
+    "Issue Date": "2022-08-09",
+    "Diagnosis": "head injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "1",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "702"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient Clinic",
+    "Issue Date": "2022-08-13",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "706"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "North Kwai Chung Clinic GOPC",
+    "Issue Date": "2022-08-17",
+    "Diagnosis": "Post concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "711"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient Clinic",
+    "Issue Date": "2022-08-22",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "715"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Ha Kwai Chung Polyclinic General Out Patient",
+    "Issue Date": "2022-08-22",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "719"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "North KwaI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-08-26",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "723"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "North KwaI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-08-30",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "727"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "Princess Margaret Hospital",
+    "Issue Date": "2022-09-03",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "4",
+    "Year-Month": " September 2022",
+    "Cumulative SL": "731"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2022-10-06",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " October 2022",
+    "Cumulative SL": "736"
+  },
+  {
+    "TRM Ref": "33510",
+    "New Hospital Name": "NORTH KWAI CHUNG CLINIC GOPC",
+    "Issue Date": "2023-05-10",
+    "Diagnosis": "post-concussion dizziness and headache",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " May 2023",
+    "Cumulative SL": "741"
+  }
+]

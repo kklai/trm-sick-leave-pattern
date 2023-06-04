@@ -1,0 +1,126 @@
+[
+  {
+    "Strategy": "DS - Legal",
+    "Strategy-code": "DSL"
+  },
+  {
+    "Strategy": "Legal",
+    "Strategy-code": "LEG"
+  },
+  {
+    "Strategy": "MAB-2nd",
+    "Strategy-code": "MAB2"
+  },
+  {
+    "Strategy": "Surveillance",
+    "Strategy-code": "Surv"
+  },
+  {
+    "Strategy": "MAB-Appealed",
+    "Strategy-code": "MABA"
+  },
+  {
+    "Strategy": "MAB",
+    "Strategy-code": "MAB"
+  },
+  {
+    "Strategy": "Medical report",
+    "Strategy-code": "MR"
+  },
+  {
+    "Strategy": "MAB referred",
+    "Strategy-code": "MABR"
+  },
+  {
+    "Strategy": "Consent- Signed",
+    "Strategy-code": "CS"
+  },
+  {
+    "Strategy": "O&T",
+    "Strategy-code": "O&T"
+  },
+  {
+    "Strategy": "PT",
+    "Strategy-code": "PT"
+  },
+  {
+    "Strategy": "HLM",
+    "Strategy-code": "HLM"
+  },
+  {
+    "Strategy": "Statement",
+    "Strategy-code": "State"
+  },
+  {
+    "Strategy": "File Review",
+    "Strategy-code": "FilR"
+  },
+  {
+    "Strategy": "DOA",
+    "Strategy-code": "DOA"
+  },
+  {
+    "Strategy": "DS-Legal-CL",
+    "Strategy-code": "DSLC"
+  },
+  {
+    "Strategy": "Closed case",
+    "Strategy-code": "CC"
+  },
+  {
+    "Strategy": "DS - Failed",
+    "Strategy-code": "DSF"
+  },
+  {
+    "Strategy": "BIR",
+    "Strategy-code": "BIR"
+  },
+  {
+    "Strategy": "DS-Legal-ECC",
+    "Strategy-code": "DSLEC"
+  },
+  {
+    "Strategy": "DS",
+    "Strategy-code": "DS"
+  },
+  {
+    "Strategy": "FIR",
+    "Strategy-code": "FIR"
+  },
+  {
+    "Strategy": "DS-Legal-Succeed",
+    "Strategy-code": "DSLS"
+  },
+  {
+    "Strategy": "Medical Notes",
+    "Strategy-code": "MN"
+  },
+  {
+    "Strategy": "DS-Legal(EC)-Succeed",
+    "Strategy-code": "DSLECS"
+  },
+  {
+    "Strategy": "Legal Aid",
+    "Strategy-code": "LEGA"
+  },
+  {
+    "Strategy": "DS - Abort",
+    "Strategy-code": "DSA"
+  },
+  {
+    "Strategy": "MAB-Accepted",
+    "Strategy-code": "MABA"
+  },
+  {
+    "Strategy": "BLM-Claims",
+    "Strategy-code": "BLMC"
+  },
+  {
+    "Strategy": "DS - Legal",
+    "Strategy-code": "DSL"
+  },
+  {
+    "Strategy": "S16",
+    "Strategy-code": "S16"
+  }
+]

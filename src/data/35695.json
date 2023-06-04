@@ -1,0 +1,665 @@
+[
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "",
+    "Issue Date": "2020-11-16",
+    "Diagnosis": "",
+    "Doctor Label": "DOA",
+    "SLC Total": "",
+    "Year-Month": "",
+    "Cumulative SL": ""
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2020-11-19",
+    "Diagnosis": "right index fingertip amputation",
+    "Doctor Label": "HA-ORTH",
+    "SLC Total": "10",
+    "Year-Month": " November 2020",
+    "Cumulative SL": "10"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2020-11-25",
+    "Diagnosis": "right index finger injury",
+    "Doctor Label": "HA-ORTH",
+    "SLC Total": "28",
+    "Year-Month": " November 2020",
+    "Cumulative SL": "38"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2020-12-22",
+    "Diagnosis": "right index finger injury",
+    "Doctor Label": "HA-ORTH",
+    "SLC Total": "29",
+    "Year-Month": " December 2020",
+    "Cumulative SL": "67"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-01-19",
+    "Diagnosis": "right index finger injury",
+    "Doctor Label": "HA-ORTH",
+    "SLC Total": "57",
+    "Year-Month": " January 2021",
+    "Cumulative SL": "124"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-03-16",
+    "Diagnosis": "right index finger injury",
+    "Doctor Label": "HA-ORTH",
+    "SLC Total": "64",
+    "Year-Month": " March 2021",
+    "Cumulative SL": "188"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-05-18",
+    "Diagnosis": "right index finger injury",
+    "Doctor Label": "HA-ORTH",
+    "SLC Total": "71",
+    "Year-Month": " May 2021",
+    "Cumulative SL": "259"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-07-27",
+    "Diagnosis": "right index finger injury",
+    "Doctor Label": "HA-ORTH",
+    "SLC Total": "43",
+    "Year-Month": " July 2021",
+    "Cumulative SL": "302"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-09-07",
+    "Diagnosis": "right index finger injury",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "7",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "309"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-09-14",
+    "Diagnosis": "right index finger injury/pain",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "7",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "316"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-09-21",
+    "Diagnosis": "right index finger injury",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "7",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "323"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-09-28",
+    "Diagnosis": "Right index finger pain",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "7",
+    "Year-Month": " September 2021",
+    "Cumulative SL": "330"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-10-05",
+    "Diagnosis": "right index finger injury",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "9",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "339"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-10-13",
+    "Diagnosis": "RIGHT INDEX FINGER PAIN",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "7",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "346"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-10-21",
+    "Diagnosis": "Orthopaedic illness",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "7",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "353"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-10-28",
+    "Diagnosis": "RIGHT INDEX FINGER PAIN",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "5",
+    "Year-Month": " October 2021",
+    "Cumulative SL": "358"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-11-02",
+    "Diagnosis": "right index finger pain",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "5",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "363"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-11-07",
+    "Diagnosis": "right index finger pain",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "5",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "368"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-11-12",
+    "Diagnosis": "right index finger pain",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "7",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "375"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-11-19",
+    "Diagnosis": "right index finger pain",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "7",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "382"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-11-26",
+    "Diagnosis": "right index finger pain",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "7",
+    "Year-Month": " November 2021",
+    "Cumulative SL": "389"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-12-03",
+    "Diagnosis": "right index finger stump pain",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "393"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-12-07",
+    "Diagnosis": "R index finger pulp pain",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "397"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Prince of Wales Hospital",
+    "Issue Date": "2021-12-11",
+    "Diagnosis": "phantom limb pain",
+    "Doctor Label": "HA-AED",
+    "SLC Total": "2",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "399"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2021-12-13",
+    "Diagnosis": "R I/F injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "403"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "New Territories East Cluster",
+    "Issue Date": "2021-12-16",
+    "Diagnosis": "R index finger pulp pain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "407"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "New Territories East Cluster",
+    "Issue Date": "2021-12-20",
+    "Diagnosis": "R index finger pulp pain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "411"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2021-12-24",
+    "Diagnosis": "R I/F injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "415"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "New Territories East Cluster",
+    "Issue Date": "2021-12-28",
+    "Diagnosis": "R index finger pulp pain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2021",
+    "Cumulative SL": "419"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "8124-麥佩云",
+    "Issue Date": "2022-01-01",
+    "Diagnosis": "玄暈",
+    "Doctor Label": "PRIV-CMP",
+    "SLC Total": "2",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "421"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-01-03",
+    "Diagnosis": "R I/F injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "425"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-01-07",
+    "Diagnosis": "RI/F injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "429"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "New Territories East Cluster",
+    "Issue Date": "2022-01-11",
+    "Diagnosis": "right index finger pain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "433"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "New Territories East Cluster",
+    "Issue Date": "2022-01-15",
+    "Diagnosis": "right index finger pain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "437"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-01-19",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "441"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "OLMH East Kowloon GOPC",
+    "Issue Date": "2022-01-24",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "445"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "OLMH East Kowloon GOPC",
+    "Issue Date": "2022-01-28",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " January 2022",
+    "Cumulative SL": "449"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "OLMH East Kowloon GOPC",
+    "Issue Date": "2022-02-04",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "453"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-02-08",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "457"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-02-12",
+    "Diagnosis": "\"Right index finger injury"
+  },
+  {
+    "TRM Ref": "▬▬▬▬▬▬▬▬\"",
+    "New Hospital Name": "HA-GOPC",
+    "Issue Date": "4",
+    "Diagnosis": " February 2022",
+    "Doctor Label": "461"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "OLMH East Kowloon GOPC",
+    "Issue Date": "2022-02-16",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "466"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-02-21",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "470"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-02-25",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " February 2022",
+    "Cumulative SL": "474"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-03-01",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "478"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "New Territories East Cluster",
+    "Issue Date": "2022-03-05",
+    "Diagnosis": "right index finger pain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "482"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "New Territories East Cluster",
+    "Issue Date": "2022-03-09",
+    "Diagnosis": "right index finger pain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "486"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-03-14",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "490"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-03-18",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "494"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-03-22",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "498"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-03-26",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "502"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-03-30",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " March 2022",
+    "Cumulative SL": "506"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-04-03",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "510"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-04-07",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "514"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-04-11",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "518"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-04-15",
+    "Diagnosis": "Right index finger injury",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "522"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-04-19",
+    "Diagnosis": "Right index finger injury, pain in finger",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "526"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-04-24",
+    "Diagnosis": "Right index finger injury, pain in finger",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "530"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-04-28",
+    "Diagnosis": "Right index finger injury, pain in finger",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " April 2022",
+    "Cumulative SL": "534"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-05-02",
+    "Diagnosis": "Right index finger injury, pain in finger",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "538"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-05-04",
+    "Diagnosis": "Right index finger injury, pain in finger",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "6",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "544"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-05-06",
+    "Diagnosis": "Right index finger injury, pain in finger",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "548"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Mrs Wu York Yu General Out Patient Clinic",
+    "Issue Date": "2022-05-10",
+    "Diagnosis": "Right index finger injury, pain in finger",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "552"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "New Territories East Cluster",
+    "Issue Date": "2022-05-14",
+    "Diagnosis": "Right index finger pain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "556"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-05-18",
+    "Diagnosis": "Right index finger injury, pain in finger",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "560"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Mrs Wu York Yu General Out Patient Clinic",
+    "Issue Date": "2022-05-23",
+    "Diagnosis": "Right index finger injury, pain in finger",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "564"
+  },
+  {
+    "TRM Ref": "35695",
+    "New Hospital Name": "Our Lady of Maryknoll Hospital",
+    "Issue Date": "2022-05-27",
+    "Diagnosis": "Right index finger injury, pain in finger",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " May 2022",
+    "Cumulative SL": "569"
+  }
+]

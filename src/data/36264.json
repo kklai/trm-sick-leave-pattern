@@ -1,0 +1,442 @@
+[
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Hospital",
+    "Issue Date": "",
+    "Diagnosis": "right wrist pain",
+    "Doctor Label": "HA-ORTH",
+    "SLC Total": "57",
+    "Year-Month": " January 2023",
+    "Cumulative SL": "57"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "",
+    "Issue Date": "2022-07-14",
+    "Diagnosis": "",
+    "Doctor Label": "DOA",
+    "SLC Total": "",
+    "Year-Month": "",
+    "Cumulative SL": ""
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-07-28",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " July 2022",
+    "Cumulative SL": "61"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-08-01",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "65"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yan Oi GOPC",
+    "Issue Date": "2022-08-04",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "69"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-08-08",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "73"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-08-11",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "77"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-08-15",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "81"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-08-18",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "85"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Hong Kong Traumatology and Orthopaedics Institute",
+    "Issue Date": "2022-08-23",
+    "Diagnosis": "Right leg injury",
+    "Doctor Label": "PRIV-ORTH",
+    "SLC Total": "14",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "99"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Hong Kong Traumatology and Orthopaedics Institute",
+    "Issue Date": "2022-08-29",
+    "Diagnosis": "Right wrist injury",
+    "Doctor Label": "PRIV-ORTH",
+    "SLC Total": "14",
+    "Year-Month": " August 2022",
+    "Cumulative SL": "113"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-09-05",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2022",
+    "Cumulative SL": "117"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-09-05",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2022",
+    "Cumulative SL": "121"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Madam Yung Fung Shee Health Centre",
+    "Issue Date": "2022-09-09",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2022",
+    "Cumulative SL": "125"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Madam Yung Fung Shee Health Centre",
+    "Issue Date": "2022-09-13",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2022",
+    "Cumulative SL": "129"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Hong Kong Traumatology and Orthopaedics Institute (Yuen Long)",
+    "Issue Date": "2022-09-15",
+    "Diagnosis": "Right wrist injury",
+    "Doctor Label": "PRIV-ORTH",
+    "SLC Total": "14",
+    "Year-Month": " September 2022",
+    "Cumulative SL": "143"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Madam Yung Fung Shee Health Centre",
+    "Issue Date": "2022-09-27",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2022",
+    "Cumulative SL": "147"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Madam Yung Fung Shee Health Centre",
+    "Issue Date": "2022-09-27",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2022",
+    "Cumulative SL": "151"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yan Oi GOPC",
+    "Issue Date": "2022-09-29",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2022",
+    "Cumulative SL": "155"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yan Oi GOPC",
+    "Issue Date": "2022-09-29",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " September 2022",
+    "Cumulative SL": "159"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-10-03",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2022",
+    "Cumulative SL": "163"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-10-03",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2022",
+    "Cumulative SL": "167"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tin Shui Wai (Tin Yip Road) Community Health",
+    "Issue Date": "2022-10-05",
+    "Diagnosis": "Confirmed COVID-19",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "6",
+    "Year-Month": " October 2022",
+    "Cumulative SL": "173"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-10-11",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2022",
+    "Cumulative SL": "177"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yan Oi GOPC",
+    "Issue Date": "2022-10-14",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2022",
+    "Cumulative SL": "181"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-10-17",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2022",
+    "Cumulative SL": "185"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-10-17",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " October 2022",
+    "Cumulative SL": "189"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yan Oi GOPC",
+    "Issue Date": "2022-11-01",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "193"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yan Oi GOPC",
+    "Issue Date": "2022-11-01",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "197"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yuen Long Jockey Club Health Centre",
+    "Issue Date": "2022-11-04",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "201"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tin Shui Wai Health Centre",
+    "Issue Date": "2022-11-07",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "205"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tin Shui Wai Health Centre",
+    "Issue Date": "2022-11-10",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "209"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tin Shui Wai Health Centre",
+    "Issue Date": "2022-11-12",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "213"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yuen Long Jockey Club Health Centre",
+    "Issue Date": "2022-11-15",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "217"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tin Shui Wai Health Centre",
+    "Issue Date": "2022-11-18",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "221"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yuen Long Jockey Club Health Centre",
+    "Issue Date": "2022-11-21",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "225"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tin Shui Wai Health Centre",
+    "Issue Date": "2022-11-25",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "229"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yuen Long Jockey Club Health Centre",
+    "Issue Date": "2022-11-28",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " November 2022",
+    "Cumulative SL": "233"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Yuen Long Jockey Club Health Centre",
+    "Issue Date": "2022-12-02",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " December 2022",
+    "Cumulative SL": "238"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-12-06",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2022",
+    "Cumulative SL": "242"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Clinic",
+    "Issue Date": "2022-12-10",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "4",
+    "Year-Month": " December 2022",
+    "Cumulative SL": "246"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Wu Hong Clinic",
+    "Issue Date": "2022-12-13",
+    "Diagnosis": "right wrist sprain",
+    "Doctor Label": "HA-GOPC",
+    "SLC Total": "5",
+    "Year-Month": " December 2022",
+    "Cumulative SL": "251"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Hospital",
+    "Issue Date": "2022-12-19",
+    "Diagnosis": "right wrist pain",
+    "Doctor Label": "HA-ORTH",
+    "SLC Total": "29",
+    "Year-Month": " December 2022",
+    "Cumulative SL": "280"
+  },
+  {
+    "TRM Ref": "36264",
+    "New Hospital Name": "Tuen Mun Hospital",
+    "Issue Date": "2022-12-19",
+    "Diagnosis": "right wrist pain",
+    "Doctor Label": "HA-ORTH",
+    "SLC Total": "29",
+    "Year-Month": " December 2022",
+    "Cumulative SL": "309"
+  }
+]

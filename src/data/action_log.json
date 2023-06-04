@@ -1,0 +1,716 @@
+[
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2022-07-29",
+    "Action": "DS - Legal",
+    "Handler": "WinnieAu-Yeung",
+    "Code": "DSL"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2022-07-26",
+    "Action": "Legal",
+    "Handler": "EmmyTong",
+    "Code": "LEG"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2022-07-20",
+    "Action": "MAB-2nd",
+    "Handler": "PearlLam",
+    "Code": "MAB2"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2022-04-08",
+    "Action": "Surveillance",
+    "Handler": "TephaniePoon",
+    "Code": "Surv"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2022-03-08",
+    "Action": "MAB-Appealed",
+    "Handler": "SunLai",
+    "Code": "MABA"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2022-02-07",
+    "Action": "MAB",
+    "Handler": "PearlLam",
+    "Code": "MAB"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2022-01-03",
+    "Action": "Medical report",
+    "Handler": "TephaniePoon",
+    "Code": "MR"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2021-12-12",
+    "Action": "MAB referred",
+    "Handler": "SunLai",
+    "Code": "MABR"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2021-10-04",
+    "Action": "Consent- Signed",
+    "Handler": "PearlLam",
+    "Code": "CS"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2021-09-17",
+    "Action": "O&T",
+    "Handler": "AdaWong",
+    "Code": "O&T"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2021-09-17",
+    "Action": "PT",
+    "Handler": "AdaWong",
+    "Code": "PT"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2021-08-26",
+    "Action": "HLM",
+    "Handler": "JoanneLai",
+    "Code": "HLM"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2021-08-26",
+    "Action": "Statement",
+    "Handler": "MartinKee",
+    "Code": "State"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2021-08-24",
+    "Action": "File Review",
+    "Handler": "MaureenMa",
+    "Code": "FilR"
+  },
+  {
+    "TRM Ref": "34585",
+    "Action Date": "2021-07-23",
+    "Action": "DOA",
+    "Handler": "MaureenMa",
+    "Code": "DOA"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2022-09-21",
+    "Action": "DS-Legal-CL",
+    "Handler": "ChloeKitschke",
+    "Code": "DSLC"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2022-05-02",
+    "Action": "Closed case",
+    "Handler": "SunLai",
+    "Code": "CC"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2022-05-02",
+    "Action": "DS - Failed",
+    "Handler": "SunLai",
+    "Code": "DSF"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2022-03-14",
+    "Action": "BIR",
+    "Handler": "DenLaw",
+    "Code": "BIR"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2022-03-02",
+    "Action": "DS - Legal",
+    "Handler": "ChloeKitschke",
+    "Code": "DSL"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2022-03-02",
+    "Action": "DS-Legal-ECC",
+    "Handler": "ChloeKitschke",
+    "Code": "DSLEC"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2022-01-28",
+    "Action": "Legal",
+    "Handler": "IreneLeung",
+    "Code": "LEG"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2021-08-19",
+    "Action": "DS",
+    "Handler": "RonaldYeung",
+    "Code": "DS"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2021-03-23",
+    "Action": "Surveillance",
+    "Handler": "SunLai",
+    "Code": "Surv"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2021-03-18",
+    "Action": "O&T",
+    "Handler": "Silvia Cheung",
+    "Code": "O&T"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2020-12-17",
+    "Action": "HLM",
+    "Handler": "JoanneLai",
+    "Code": "HLM"
+  },
+  {
+    "TRM Ref": "33296",
+    "Action Date": "2020-02-04",
+    "Action": "DOA",
+    "Handler": "JoanneLai",
+    "Code": "DOA"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2022-09-26",
+    "Action": "DS-Legal-CL",
+    "Handler": "ChloeKitschke",
+    "Code": "DSLC"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2022-09-14",
+    "Action": "Legal",
+    "Handler": "SunLai",
+    "Code": "LEG"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2022-06-20",
+    "Action": "MAB-Appealed",
+    "Handler": "SunLai",
+    "Code": "MABA"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2022-06-09",
+    "Action": "MAB",
+    "Handler": "FannyWoo",
+    "Code": "MAB"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2022-04-08",
+    "Action": "DS - Legal",
+    "Handler": "ChloeKitschke",
+    "Code": "DSL"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2022-04-08",
+    "Action": "DS-Legal-ECC",
+    "Handler": "ChloeKitschke",
+    "Code": "DSLEC"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2022-04-03",
+    "Action": "MAB referred",
+    "Handler": "SunLai",
+    "Code": "MABR"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2021-09-24",
+    "Action": "DS",
+    "Handler": "KinChan",
+    "Code": "DS"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2021-02-02",
+    "Action": "FIR",
+    "Handler": "NoelChong",
+    "Code": "FIR"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2021-02-02",
+    "Action": "HLM",
+    "Handler": "JoanneLai",
+    "Code": "HLM"
+  },
+  {
+    "TRM Ref": "33510",
+    "Action Date": "2020-08-28",
+    "Action": "DOA",
+    "Handler": "JoanneLai",
+    "Code": "DOA"
+  },
+  {
+    "TRM Ref": "32884",
+    "Action Date": "2021-10-12",
+    "Action": "DS-Legal-Succeed",
+    "Handler": "SunLai",
+    "Code": "DSLS"
+  },
+  {
+    "TRM Ref": "32884",
+    "Action Date": "2021-08-09",
+    "Action": "DS - Legal",
+    "Handler": "ChloeKitschke",
+    "Code": "DSL"
+  },
+  {
+    "TRM Ref": "32884",
+    "Action Date": "2021-01-15",
+    "Action": "DS - Failed",
+    "Handler": "SunLai",
+    "Code": "DSF"
+  },
+  {
+    "TRM Ref": "32884",
+    "Action Date": "2020-11-12",
+    "Action": "Surveillance",
+    "Handler": "SunLai",
+    "Code": "Surv"
+  },
+  {
+    "TRM Ref": "32884",
+    "Action Date": "2020-09-22",
+    "Action": "DS",
+    "Handler": "RonaldYeung",
+    "Code": "DS"
+  },
+  {
+    "TRM Ref": "32884",
+    "Action Date": "2020-09-21",
+    "Action": "HLM",
+    "Handler": "JoanneLai",
+    "Code": "HLM"
+  },
+  {
+    "TRM Ref": "32884",
+    "Action Date": "2019-09-02",
+    "Action": "DOA",
+    "Handler": "JoanneLai",
+    "Code": "DOA"
+  },
+  {
+    "TRM Ref": "34343",
+    "Action Date": "2023-03-01",
+    "Action": "Legal",
+    "Handler": "SunLai",
+    "Code": "LEG"
+  },
+  {
+    "TRM Ref": "34343",
+    "Action Date": "2023-02-28",
+    "Action": "MAB-Appealed",
+    "Handler": "SunLai",
+    "Code": "MABA"
+  },
+  {
+    "TRM Ref": "34343",
+    "Action Date": "2023-02-13",
+    "Action": "MAB",
+    "Handler": "SusanCheung",
+    "Code": "MAB"
+  },
+  {
+    "TRM Ref": "34343",
+    "Action Date": "2022-12-10",
+    "Action": "MAB referred",
+    "Handler": "SunLai",
+    "Code": "MABR"
+  },
+  {
+    "TRM Ref": "34343",
+    "Action Date": "2022-08-19",
+    "Action": "Surveillance",
+    "Handler": "TephaniePoon",
+    "Code": "Surv"
+  },
+  {
+    "TRM Ref": "34343",
+    "Action Date": "2021-12-07",
+    "Action": "Medical Notes",
+    "Handler": "BoboLi",
+    "Code": "MN"
+  },
+  {
+    "TRM Ref": "34343",
+    "Action Date": "2021-07-29",
+    "Action": "Consent- Signed",
+    "Handler": "SusanCheung",
+    "Code": "CS"
+  },
+  {
+    "TRM Ref": "34343",
+    "Action Date": "2021-07-21",
+    "Action": "HLM",
+    "Handler": "JoanneLai",
+    "Code": "HLM"
+  },
+  {
+    "TRM Ref": "34343",
+    "Action Date": "2021-03-15",
+    "Action": "DOA",
+    "Handler": "JoanneLai",
+    "Code": "DOA"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2022-09-22",
+    "Action": "DS-Legal-CL",
+    "Handler": "WinnieAu-Yeung",
+    "Code": "DSLC"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2022-07-13",
+    "Action": "DS-Legal(EC)-Succeed",
+    "Handler": "SunLai",
+    "Code": "DSLECS"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2022-05-12",
+    "Action": "DS-Legal-ECC",
+    "Handler": "WinnieAu-Yeung",
+    "Code": "DSLEC"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2022-05-11",
+    "Action": "MAB-2nd",
+    "Handler": "EmmyTong",
+    "Code": "MAB2"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2022-04-14",
+    "Action": "Legal",
+    "Handler": "JustinSiu",
+    "Code": "LEG"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2022-04-06",
+    "Action": "DS - Legal",
+    "Handler": "ChloeKitschke",
+    "Code": "DSL"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2022-03-22",
+    "Action": "HLM",
+    "Handler": "JoanneLai",
+    "Code": "HLM"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2022-01-28",
+    "Action": "MAB-Appealed",
+    "Handler": "SunLai",
+    "Code": "MABA"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2022-01-12",
+    "Action": "MAB",
+    "Handler": "EmmyTong",
+    "Code": "MAB"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2021-11-13",
+    "Action": "MAB referred",
+    "Handler": "SunLai",
+    "Code": "MABR"
+  },
+  {
+    "TRM Ref": "35695",
+    "Action Date": "2020-11-16",
+    "Action": "DOA",
+    "Handler": "SunLai",
+    "Code": "DOA"
+  },
+  {
+    "TRM Ref": "33931",
+    "Action Date": "2022-09-07",
+    "Action": "Legal",
+    "Handler": "JustinSiu",
+    "Code": "LEG"
+  },
+  {
+    "TRM Ref": "33931",
+    "Action Date": "2022-09-07",
+    "Action": "Legal Aid",
+    "Handler": "JustinSiu",
+    "Code": "LEGA"
+  },
+  {
+    "TRM Ref": "33931",
+    "Action Date": "2021-09-29",
+    "Action": "O&T",
+    "Handler": "BoboLi",
+    "Code": "O&T"
+  },
+  {
+    "TRM Ref": "33931",
+    "Action Date": "2021-07-02",
+    "Action": "Medical Notes",
+    "Handler": "BoboLi",
+    "Code": "MN"
+  },
+  {
+    "TRM Ref": "33931",
+    "Action Date": "2021-05-07",
+    "Action": "HLM",
+    "Handler": "JoanneLai",
+    "Code": "HLM"
+  },
+  {
+    "TRM Ref": "33931",
+    "Action Date": "2021-03-13",
+    "Action": "DOA",
+    "Handler": "JoanneLai",
+    "Code": "DOA"
+  },
+  {
+    "TRM Ref": "33938",
+    "Action Date": "2022-10-28",
+    "Action": "Closed case",
+    "Handler": "SunLai",
+    "Code": "CC"
+  },
+  {
+    "TRM Ref": "33938",
+    "Action Date": "2022-10-03",
+    "Action": "DS - Abort",
+    "Handler": "SunLai",
+    "Code": "DSA"
+  },
+  {
+    "TRM Ref": "33938",
+    "Action Date": "2022-09-30",
+    "Action": "MAB-Accepted",
+    "Handler": "SunLai",
+    "Code": "MABA"
+  },
+  {
+    "TRM Ref": "33938",
+    "Action Date": "2022-08-22",
+    "Action": "MAB",
+    "Handler": "JustinSiu",
+    "Code": "MAB"
+  },
+  {
+    "TRM Ref": "33938",
+    "Action Date": "2022-06-02",
+    "Action": "MAB referred",
+    "Handler": "SunLai",
+    "Code": "MABR"
+  },
+  {
+    "TRM Ref": "33938",
+    "Action Date": "2022-03-14",
+    "Action": "DS",
+    "Handler": "RonaldYeung",
+    "Code": "DS"
+  },
+  {
+    "TRM Ref": "33938",
+    "Action Date": "2021-05-07",
+    "Action": "BLM-Claims",
+    "Handler": "TephaniePoon",
+    "Code": "BLMC"
+  },
+  {
+    "TRM Ref": "33938",
+    "Action Date": "2021-05-07",
+    "Action": "FIR",
+    "Handler": "NoelChong",
+    "Code": "FIR"
+  },
+  {
+    "TRM Ref": "33938",
+    "Action Date": "2021-05-07",
+    "Action": "HLM",
+    "Handler": "JoanneLai",
+    "Code": "HLM"
+  },
+  {
+    "TRM Ref": "33938",
+    "Action Date": "2020-09-14",
+    "Action": "DOA",
+    "Handler": "TephaniePoon",
+    "Code": "DOA"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2023-04-24",
+    "Action": "DS",
+    "Handler": "EmiliaLaw",
+    "Code": "DS"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2023-03-14",
+    "Action": "BIR",
+    "Handler": "VanNg",
+    "Code": "BIR"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2023-02-05",
+    "Action": "S16",
+    "Handler": "SunLai",
+    "Code": "S16"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2022-09-05",
+    "Action": "PT",
+    "Handler": "AdaWong",
+    "Code": "PT"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2022-08-29",
+    "Action": "Medical Notes",
+    "Handler": "CynthiaYau",
+    "Code": "MN"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2022-08-27",
+    "Action": "Consent- Signed",
+    "Handler": "CherylSin",
+    "Code": "CS"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2022-08-19",
+    "Action": "O&T",
+    "Handler": "AdaWong",
+    "Code": "O&T"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2022-08-15",
+    "Action": "Statement",
+    "Handler": "VanNg",
+    "Code": "State"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2022-08-12",
+    "Action": "File Review",
+    "Handler": "JamesLai",
+    "Code": "FilR"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2022-08-12",
+    "Action": "HLM",
+    "Handler": "JoanneLai",
+    "Code": "HLM"
+  },
+  {
+    "TRM Ref": "36264",
+    "Action Date": "2022-07-14",
+    "Action": "DOA",
+    "Handler": "JoanneLai",
+    "Code": "DOA"
+  },
+  {
+    "TRM Ref": "36588",
+    "Action Date": "2023-06-21",
+    "Action": "MAB",
+    "Handler": "IreneLeung",
+    "Code": "MAB"
+  },
+  {
+    "TRM Ref": "36588",
+    "Action Date": "2023-04-03",
+    "Action": "S16",
+    "Handler": "SunLai",
+    "Code": "S16"
+  },
+  {
+    "TRM Ref": "36588",
+    "Action Date": "2023-03-27",
+    "Action": "MAB referred",
+    "Handler": "SunLai",
+    "Code": "MABR"
+  },
+  {
+    "TRM Ref": "36588",
+    "Action Date": "2023-03-17",
+    "Action": "O&T",
+    "Handler": "AdaWong",
+    "Code": "O&T"
+  },
+  {
+    "TRM Ref": "36588",
+    "Action Date": "2022-12-06",
+    "Action": "Medical Notes",
+    "Handler": "JoanneLai",
+    "Code": "MN"
+  },
+  {
+    "TRM Ref": "36588",
+    "Action Date": "2022-12-05",
+    "Action": "BIR",
+    "Handler": "CandyYip",
+    "Code": "BIR"
+  },
+  {
+    "TRM Ref": "36588",
+    "Action Date": "2022-11-28",
+    "Action": "Consent- Signed",
+    "Handler": "IreneLeung",
+    "Code": "CS"
+  },
+  {
+    "TRM Ref": "36588",
+    "Action Date": "2022-11-17",
+    "Action": "Statement",
+    "Handler": "CandyYip",
+    "Code": "State"
+  },
+  {
+    "TRM Ref": "36588",
+    "Action Date": "2022-10-17",
+    "Action": "HLM",
+    "Handler": "JoanneLai",
+    "Code": "HLM"
+  },
+  {
+    "TRM Ref": "36588",
+    "Action Date": "2022-07-04",
+    "Action": "DOA",
+    "Handler": "JoanneLai",
+    "Code": "DOA"
+  }
+]
