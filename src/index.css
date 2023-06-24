@@ -148,6 +148,14 @@ header p {
   fill: teal;
 }
 
+.g-slc-fill-priv {
+  fill: orange;
+}
+
+.g-slc-fill-cmp {
+  fill: blue;
+}
+
 .g-cum-stroke {
   stroke: #000;
 }
@@ -266,6 +274,13 @@ header p {
   position: absolute;
   border-radius: 100%;
   border: 1px solid #fff;
+}
+
+.g-action-log-line {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  border-right: 1px dashed rgba(0,0,0,0.2);
 }
 
 .g-action-log-inner {

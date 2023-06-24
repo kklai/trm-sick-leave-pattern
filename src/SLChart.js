@@ -1,6 +1,6 @@
 import React, {Component, useEffect} from 'react';
 import * as d3 from "d3";
-import data from './data/34585.json';
+import data from './data/36264.json';
 import action_log from './data/action_log.json';
 import code from './data/code.json';
 
@@ -13,9 +13,9 @@ function SLChart() {
 
 	function drawChart() {
 		console.clear();
-		var ref = "34585";
+		var ref = "36264";
 		var action_log_filtered = action_log.filter(d => d["TRM Ref"] == ref);
-		data = data.filter(d => d["Issue Date"]);
+		data = data.filter(d => d["Issue Date"] && d["Issue Date"].indexOf("-") > -1);
 
 		var doc;
 		var doclabels = [];
@@ -55,6 +55,7 @@ function SLChart() {
 
 		var alldates = data.map(d => d.date);
 		alldates = alldates.sort((a,b) => +new Date(a) - +new Date(b));
+		alldates = alldates.filter(d => d.indexOf("-") > -1);
 
 		var actiondates = [];
 		alldates.forEach(function(d,i){
@@ -64,6 +65,7 @@ function SLChart() {
 				i: i,
 			})
 		})
+
 		action_log_filtered.forEach(function(d,i){
 			actiondates.push({
 				type: "action",
@@ -72,16 +74,31 @@ function SLChart() {
 			})
 		})
 		actiondates = actiondates.sort((a,b) => +new Date(a.date) - +new Date(b.date));
+
+		if (alldates.indexOf(actiondates[0].date) == -1) {
+			alldates.unshift(actiondates[0].date)
+		}
+
 		actiondates.forEach(function(d,i){
 			if (d.type == "action") {
 				var filtered = actiondates.slice(0,i);
 				filtered = filtered.filter(a => a.type != "action");
+
+				var usei;
+				if (filtered.length == 0) {
+					filtered = [actiondates[0]];
+					usei = 0
+				} else {
+					usei = filtered[filtered.length - 1].i
+				}
+				
 				action_log_filtered[d.i].usedate = filtered[filtered.length - 1].date; 
 				var use = filtered[filtered.length - 1];
+
 				action_log_filtered[d.i].usedate = use.date; 
-				action_log_filtered[d.i].usey = data[use.i]["Cumulative SL"];
+				action_log_filtered[d.i].usey = data[usei]["Cumulative SL"];
 			}
-		})		
+		})
 
 		const yearmarks = [];
 		var yearrow = [], curyear;
@@ -99,13 +116,6 @@ function SLChart() {
 				yearrow = [];
 				curyear = year;
 			}
-
-			if (curyear != year) {
-				curyear = year;
-				addyears.push(true);
-			} else {
-				addyears.push(false);
-			}
 		})
 
 		const dateRange = data.map(d => d["Issue Date"]);
@@ -122,17 +132,31 @@ function SLChart() {
 			var month = d.split("-")[1];
 			return i == 0 || i == fullDateRange.length - 1 || day == 1;
 		})
+
 		const tickValues = alldates.filter((d,i) => i == 0 || i == tickDates.length - 1 || i%datenthshow == 0)
+		var addyears = [], curyear;
+
+		tickValues.forEach(function(d){
+			var year = d.split("-")[0];
+			if (curyear != year) {
+				curyear = year;
+				addyears.push(true);
+			} else {
+				addyears.push(false);
+			}
+		})
+
+		const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
 		const xAxis = d3.axisBottom(xBar)
 			.tickValues(tickValues)
-			.tickFormat(function(d,i){
-				var ddate = new Date(d)
-				const format1 = d3.timeFormat("%b %d, %Y");
-				const format2 = d3.timeFormat("%b %d");
-				if (i == 0 | d == tickValues[tickValues.length - 1] || addyears[i]) {
-					return format1(ddate)
+			.tickFormat(function(d,i){					
+				var year = d.split("-")[0];
+				var month = months[d.split("-")[1]-1];
+				var day = d.split("-")[2];
+				if (i == 0 || addyears[i]) {
+					return month + " " + day + ", " + year
 				} else {
-					return format2(ddate)
+					return month + " " + day
 				}
 			});
 
@@ -215,11 +239,18 @@ function SLChart() {
      		.attr("transform", "translate(" + width + ",0)")
      		.call(yAxisCum);
 
+
      	svg.append("g")
  	    .selectAll("rect")
  	    .data(data)
  	    .join("rect")
- 	      .attr("class", "g-slc-fill")
+ 	      .attr("class", function(d){
+ 	      	if (d["Doctor Label"]) {
+ 	      		return "g-slc-fill g-slc-fill-" + d["Doctor Label"].split("-")[0].toLowerCase()
+ 	      	} else {
+ 	      		return "g-slc-fill"
+ 	      	}
+ 	      })
  	      .attr("id", (d,i) => "rect-" + i)
  	      .attr("data-date", (d,i) => d.date)
  	      .attr("x", d => xBar(d.date))
@@ -308,9 +339,9 @@ function SLChart() {
  	   	}	
 
  	   	var actionlogg = sel.append("div").attr("class", "g-action-log-cont")
- 	   	action_log_filtered.forEach(function(d){
+ 	   	action_log_filtered.forEach(function(d,i){
  	   		var logg = actionlogg.append("div")
- 	   			.attr("class", "g-action-log")
+ 	   			.attr("class", "g-action-log g-action-log-" + i)
  	   			.style("top", (yCum(d.usey) + margin.top - 25) + "px")
  	   			.style("left", (xBar(d.usedate) + margin.left) + "px")
 
@@ -326,6 +357,50 @@ function SLChart() {
  	   			.on("mouseover", onMouseOverActionLog)
  	   			.on("mouseout", onMouseOutActionLog)
  	   	})
+
+ 	   	var pos = [];
+ 	   	sel.selectAll(".g-action-log").each(function(e,i){
+ 	   		var el = d3.select(this);
+ 	   		pos.push({
+ 	   			index: i,
+ 	   			pos: el.node().getBoundingClientRect(),
+ 	   			ogtop: el.style("top").replace("px", "")
+ 	   		})
+ 	   	})
+
+ 	   	function checkPos() {
+ 	   		pos.forEach(function(rect1,i){
+ 	   			var rect1el = sel.select(".g-action-log-" + rect1.index);
+ 	   			var tocheck = pos.filter(d => d.index != rect1.index);
+ 	   			tocheck.forEach(function(rect2){
+ 	   				var hasOverlap = checkOverlap(rect1.pos, rect2.pos);
+ 	   				if (hasOverlap) {
+ 	   					var rect1top = +rect1el.style("top").replace("px", "");
+ 	   					var rect1newtop = (rect1top - 20);
+ 	   					var pointerheight = rect1.ogtop - rect1newtop;
+ 	   					rect1el.style("top", rect1newtop + "px");
+ 	   					pos[i].pos = rect1el.node().getBoundingClientRect();
+ 	   					rect1el.selectAll(".g-action-log-line").remove();
+ 	   					rect1el.append("div").attr("class", "g-action-log-line").style("height", pointerheight + "px")
+
+ 	   					checkPos();
+ 	   				}
+ 	   			})
+ 	   		})
+ 	   	}
+
+
+ 	   	function checkOverlap(rect1, rect2) {
+		   	return !(rect1.right < rect2.left || 
+	               rect1.left > rect2.right || 
+	               rect1.bottom < rect2.top || 
+	               rect1.top > rect2.bottom);
+ 	   	}
+
+ 	   	checkPos();
+
+
+
 
  	   	function onMouseOverActionLog(d){
  	   		var el = d3.select(this)
@@ -347,7 +422,7 @@ function SLChart() {
 	  	<div className="picker">
 	  	  <label>TRM Reference</label>
 	  	  <select name="ref" id="ref">
-	  	    <option value="34585">34585</option>
+	  	    <option value="36264">36264</option>
 	  	  </select>
 	  	</div>
 	    <div className="g-chart"></div>
