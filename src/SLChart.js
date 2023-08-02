@@ -3,6 +3,7 @@ import * as d3 from "d3";
 import data from './data/36264.json';
 import action_log from './data/action_log.json';
 import code from './data/code.json';
+import benchmark from './data/benchmark.json';
 
 function SLChart() {
 
@@ -100,6 +101,7 @@ function SLChart() {
 			}
 		})
 
+
 		const yearmarks = [];
 		var yearrow = [], curyear;
 		var addyears = [];
@@ -117,6 +119,7 @@ function SLChart() {
 				curyear = year;
 			}
 		})
+
 
 		const dateRange = data.map(d => d["Issue Date"]);
 		const yRange = data.map(d => d["SLC Total"]);
@@ -272,6 +275,9 @@ function SLChart() {
  	    	.datum(data)
  	    	.attr("d", line)
 
+ 	    
+
+
  	    // add SLC total / Cumulative SL label
  	    var max = {
  	    	"SLC Total": data.filter(d => d["SLC Total"] == d3.max(data, d => +d["SLC Total"]))[0],
@@ -321,6 +327,7 @@ function SLChart() {
 				.style("left", (xBar.bandwidth()/2) + "px");
     	})
 
+
  	    function onMouseOver(d){
  	        var el = d3.select(this)
  	        var id = el.attr("id").split("-")[1];
@@ -337,6 +344,59 @@ function SLChart() {
  	        d3.select(this).style("fill", "teal") 	    
  	        d3.selectAll(".x.axis .tick").classed("g-highlight", false);
  	   	}	
+
+
+ 	   	// add sl / benchmark / lr line
+ 	   	var benchmark_types = ["HR", "BM", "LR"]
+ 	   	var benchmark_match = 100; // need to find the benchmark date
+ 	   	
+ 	   	var benchmark_cont = sel.append("div")
+ 	   		.attr("class", "g-benchmark-cont")
+ 	   		.style("top", 20 + "px")
+ 	   		.style("left", margin.left + "px")
+ 	   		.style("height", (height + margin.bottom + 70) + "px");
+
+ 	   	var benchmark_dates = [];
+
+ 	   	benchmark_types.forEach(function(type){
+ 	   		var date = new Date(alldates[0].split("-")[0], +alldates[0].split("-")[1]-1, alldates[0].split("-")[2]);
+ 	   		if (type == "HR") {
+ 	   			date.setDate(date.getDate() + 30);
+ 	   		} else if (type == "BM" && benchmark_match) {
+ 	   			date.setDate(date.getDate() + +benchmark_match);
+ 	   		} else if (type == "LR" && benchmark_match) {
+ 	   			date.setDate(date.getDate() + (+benchmark_match + 100));
+ 	   		}
+
+ 	   		var datefound = false;
+ 	   		var usedate, date2;
+ 	   		alldates.forEach(function(d){
+ 	   			date2 = new Date(d.split("-")[0], +d.split("-")[1]-1, d.split("-")[2]);;
+ 	   			if ((date2 > date) && !datefound) {
+ 	   				usedate = date2;
+ 	   				datefound = true;
+ 	   			}
+ 	   		})
+
+ 	   		if (usedate) {
+ 	   			usedate = usedate.getFullYear() + "-" + (String(usedate.getMonth()+1)).padStart(2,'0') + "-" + (String(usedate.getDate()).padStart(2,'0'));
+ 	   		}
+
+ 	   		benchmark_dates.push(usedate)
+ 	   	})
+
+ 	   	benchmark_types.forEach(function(type,i){
+ 	   		if (benchmark_dates[i]) {
+ 	   			benchmark_cont.append("div")
+ 	   				.attr("class", "g-benchmark-line")
+ 	   				.style("left", (xBar(benchmark_dates[i]) - 2) + "px")
+ 	   				.append("div")
+ 	   				.attr("class", "g-benchmark-text")
+ 	   				.text(type)
+ 	   		}
+ 	   	})
+
+
 
  	   	var actionlogg = sel.append("div").attr("class", "g-action-log-cont")
  	   	action_log_filtered.forEach(function(d,i){
@@ -413,6 +473,17 @@ function SLChart() {
  	   		el.classed("g-action-highlighted", false)
  	   		el.html(el.attr("data-code"))
  	   	}
+
+ 	   	
+
+
+
+
+
+
+
+
+
 
     }
 
