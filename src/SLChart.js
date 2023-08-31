@@ -12,11 +12,96 @@ function SLChart() {
 	    window.addEventListener('resize', drawChart);
 	  }, []);
 
+	Date.prototype.addDays = function(days) {
+		var date = new Date(this.valueOf());
+		date.setDate(date.getDate() + days);
+		return date;
+	}
+
+	function getDates(startDate, stopDate) {
+		var dateArray = new Array();
+		var currentDate = startDate;
+		while (currentDate <= stopDate) {
+		 dateArray.push(new Date (currentDate));
+		 currentDate = currentDate.addDays(1);
+		}
+		return dateArray;
+	}
+
+	var formatDate = d3.timeFormat("%Y-%m-%d");
+
 	function drawChart() {
 		console.clear();
 		var ref = "36264";
 		var action_log_filtered = action_log.filter(d => d["TRM Ref"] == ref);
 		data = data.filter(d => d["Issue Date"] && d["Issue Date"].indexOf("-") > -1);
+
+		var startdate = data[0]["Issue Date"];
+		var enddate = data[data.length - 1]["Issue Date"];
+		var startdatef = (new Date(startdate)).addDays(1)
+		var enddatef = (new Date(enddate)).addDays(2)
+
+		// add sl / benchmark / lr line
+		var benchmark_types = ["HR", "BM", "LR"]
+		var benchmark_match = 100; // need to find the benchmark date
+		var benchmark_dates = [];
+		let benchmarklinedata = [];
+		benchmarklinedata.push({
+			date: startdate,
+			"Cumulative SL": 0
+		})
+		benchmark_types.forEach(function(type){
+			var date = new Date(startdatef);
+			if (type == "HR") {
+				date.setDate(date.getDate() + 30);
+			} else if (type == "BM" && benchmark_match) {
+				date.setDate(date.getDate() + +benchmark_match);
+				benchmarklinedata.push({
+					date: formatDate(date),
+					"Cumulative SL": benchmark_match
+				})
+			} else if (type == "LR" && benchmark_match) {
+				date = date.addDays(+benchmark_match+100);
+			}
+			benchmark_dates.push(formatDate(date))
+
+			if (date > enddatef) {
+				enddatef = date;
+			}
+		})
+
+		// action log data process
+		action_log_filtered.forEach(function(d){
+			var date = (new Date(d["Action Date"])).addDays(1);
+			if (date > enddatef) {
+				enddatef = date;
+			}
+
+			var match = data.filter(a => a.date == d.date)[0];
+			d.usey = match ? match["Cumulative SL"] : 0;
+		})
+
+		// add an end date to the data
+		data.forEach(function(d){
+			var date = (new Date(d["Issue Date"])).addDays(1);
+			d.datef = date;
+			if (d["SLC Total"]) {
+				d.enddatef = date.addDays(+d["SLC Total"]);
+				if (d.enddatef > enddatef) {
+					enddatef = d.enddatef;
+				}
+				d.enddate = formatDate(d.enddatef);
+			}
+		})
+
+		var datearrayf = getDates(startdatef, enddatef)
+		var datearray = [];
+		datearrayf.forEach(function(d){
+			var year = d.getFullYear();
+			var month = +d.getMonth()+1;
+			var day = d.getDate;
+			datearray.push(formatDate(d));
+		});
 
 		var doc;
 		var doclabels = [];
@@ -54,65 +139,16 @@ function SLChart() {
 		height -= margin.top + margin.bottom;
 		width -= margin.left + margin.right;
 
-		var alldates = data.map(d => d.date);
-		alldates = alldates.sort((a,b) => +new Date(a) - +new Date(b));
-		alldates = alldates.filter(d => d.indexOf("-") > -1);
-
-		var actiondates = [];
-		alldates.forEach(function(d,i){
-			actiondates.push({
-				type: "all",
-				date: d,
-				i: i,
-			})
-		})
-
-		action_log_filtered.forEach(function(d,i){
-			actiondates.push({
-				type: "action",
-				date: d["Action Date"],
-				i: i
-			})
-		})
-		actiondates = actiondates.sort((a,b) => +new Date(a.date) - +new Date(b.date));
-
-		if (alldates.indexOf(actiondates[0].date) == -1) {
-			alldates.unshift(actiondates[0].date)
-		}
-
-		actiondates.forEach(function(d,i){
-			if (d.type == "action") {
-				var filtered = actiondates.slice(0,i);
-				filtered = filtered.filter(a => a.type != "action");
-
-				var usei;
-				if (filtered.length == 0) {
-					filtered = [actiondates[0]];
-					usei = 0
-				} else {
-					usei = filtered[filtered.length - 1].i
-				}
-				
-				action_log_filtered[d.i].usedate = filtered[filtered.length - 1].date; 
-				var use = filtered[filtered.length - 1];
-
-				action_log_filtered[d.i].usedate = use.date; 
-				action_log_filtered[d.i].usey = data[usei]["Cumulative SL"];
-			}
-		})
-
-
 		const yearmarks = [];
 		var yearrow = [], curyear;
 		var addyears = [];
-		alldates.forEach(function(d,i){
+		datearray.forEach(function(d,i){
 			var year = d.split("-")[0];
 			if (yearrow.length == 0) {
 				yearrow = [d]
 				curyear = year;
 			}
-
-			if (curyear != year || i == alldates.length - 1) {
+			if (curyear != year || i == datearray.length - 1) {
 				yearrow.push(d);
 				yearmarks.push(yearrow);
 				yearrow = [];
@@ -120,26 +156,21 @@ function SLChart() {
 			}
 		})
 
-
-		const dateRange = data.map(d => d["Issue Date"]);
-		const yRange = data.map(d => d["SLC Total"]);
-		const fullDateRange = alldates;
-		const divider = width < 600 ? 6 : 10
-		const datenthshow = Math.round(fullDateRange.length/divider);
-
-		const xBar = d3.scaleBand().domain(fullDateRange).range([0,width]).padding(0.1);
+		const xBar = d3.scaleBand().domain(datearray).range([0,width]).padding(0.1);
 		const formatWYear = d3.timeFormat("%b %Y");
 		const format = d3.timeFormat("%b");
-		const tickDates = fullDateRange.filter(function(d,i) {
+		let tickDates = datearray.filter(function(d,i) {
 			var day = d.split("-")[2];
 			var month = d.split("-")[1];
-			return i == 0 || i == fullDateRange.length - 1 || day == 1;
+			return i == 0 || i == datearray.length - 1 || day == 1;
 		})
 
-		const tickValues = alldates.filter((d,i) => i == 0 || i == tickDates.length - 1 || i%datenthshow == 0)
-		var addyears = [], curyear;
+		if (tickDates.length > 20) {
+			tickDates = tickDates.filter(d => d.split("-")[1] == 1 || d.split("-")[1] == 7)
+		}
 
-		tickValues.forEach(function(d){
+		var addyears = [], curyear;
+		tickDates.forEach(function(d){
 			var year = d.split("-")[0];
 			if (curyear != year) {
 				curyear = year;
@@ -151,7 +182,7 @@ function SLChart() {
 
 		const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
 		const xAxis = d3.axisBottom(xBar)
-			.tickValues(tickValues)
+			.tickValues(tickDates)
 			.tickFormat(function(d,i){					
 				var year = d.split("-")[0];
 				var month = months[d.split("-")[1]-1];
@@ -211,27 +242,6 @@ function SLChart() {
      			}
      		})
 
-     	var yeartick = svg.append("g").attr("class", "g-year-ticks");
-
-     	yearmarks.forEach(function(d){
-     		var pos_a = xBar(d[0]) + (xBar.bandwidth()/2) 
-     		var pos_b = xBar(d[1]) + (xBar.bandwidth()/2) 
-     		var pos = (pos_a + pos_b)/2;
-
-     		if ((pos_b - pos_a) > 20) {
-     			yeartick.append("text")
-     				.attr("x", pos)
-     				.attr("y", height + 85)
-     				.attr("text-anchor", "middle")
-     				.text(d[0].split("-")[0])
-     		}
-
-     		yeartick.append("path")
-     			.attr("transform", "translate(" + pos_b + "," + (height+77) + ")")
-     			.attr("d", "M0,0 L0,10")
-     			.style("stroke", "#999")
-     	})
-
      	svg.append("g")
      		.attr("class", "y axis left")
      		.attr("transform", "translate(0,0)")
@@ -243,9 +253,10 @@ function SLChart() {
      		.call(yAxisCum);
 
 
+     	var datacopy = [...data];
      	svg.append("g")
  	    .selectAll("rect")
- 	    .data(data)
+ 	    .data(datacopy.sort((a,b) => b["SLC Total"] - a["SLC Total"]))
  	    .join("rect")
  	      .attr("class", function(d){
  	      	if (d["Doctor Label"]) {
@@ -254,29 +265,37 @@ function SLChart() {
  	      		return "g-slc-fill"
  	      	}
  	      })
- 	      .attr("id", (d,i) => "rect-" + i)
+ 	      .attr("id", (d,i) => "rect_" + d.date)
  	      .attr("data-date", (d,i) => d.date)
  	      .attr("x", d => xBar(d.date))
  	      .attr("y", d => yDay(d["SLC Total"]))
  	      .attr("height", d => yDay(0) - yDay(d["SLC Total"]))
  	      .attr("width", xBar.bandwidth())
+ 	      // .attr("width", d => (xBar(d.enddate) - xBar(d.date) - xBar.bandwidth()))
+ 	      // .style("stroke", "#fff")
  	      .on("mouseover", onMouseOver)
  	      .on("mouseout", onMouseOut)
 
 
+
+ 	    
+
  	    let line = d3.line()
- 	    	.curve(d3.curveLinear)
- 	    	.x(d => xBar(d.date) + xBar.bandwidth()/2)
+ 	    	.curve(d3.curveBasis)
+ 	    	.x(d => xBar(d.date))
  	    	.y(d => yCum(d["Cumulative SL"]))
+
+ 	    svg.append("g")
+ 	    	.append("path")
+ 	    	.attr("class", "g-line g-benchmark-stroke")
+ 	    	.datum(benchmarklinedata)
+ 	    	.attr("d", line)
 
  	    svg.append("g")
  	    	.append("path")
  	    	.attr("class", "g-line g-cum-stroke")
  	    	.datum(data)
  	    	.attr("d", line)
-
- 	    
-
 
  	    // add SLC total / Cumulative SL label
  	    var max = {
@@ -298,7 +317,7 @@ function SLChart() {
 
     	data.forEach(function(d,i){
     		var last = i == data.length - 1;
-    		var cls = "g-abs-label g-labels g-label-" + i;
+    		var cls = "g-abs-label g-labels g-label-" + d.date;
     		var ypos = yDay(d["SLC Total"])
     		var labeldiv = labelcont.append("div")
     			.attr("class", cls)
@@ -330,8 +349,8 @@ function SLChart() {
 
  	    function onMouseOver(d){
  	        var el = d3.select(this)
- 	        var id = el.attr("id").split("-")[1];
- 	        el.style("fill", "#004646")
+ 	        var id = el.attr("id").split("_")[1];
+ 	        el.classed("g-highlight", true)
  	        var labelel = d3.selectAll(".g-label-" + id)
  	        labelel.classed("g-active", true);
  	        labelel.raise();
@@ -340,50 +359,17 @@ function SLChart() {
  	    }
 
  	    function onMouseOut(d){
+ 	    	var el = d3.select(this)
  	    	d3.selectAll(".g-labels").classed("g-active", false);
- 	        d3.select(this).style("fill", "teal") 	    
+ 	        el.classed("g-highlight", false)
  	        d3.selectAll(".x.axis .tick").classed("g-highlight", false);
  	   	}	
 
-
- 	   	// add sl / benchmark / lr line
- 	   	var benchmark_types = ["HR", "BM", "LR"]
- 	   	var benchmark_match = 100; // need to find the benchmark date
- 	   	
  	   	var benchmark_cont = sel.append("div")
  	   		.attr("class", "g-benchmark-cont")
  	   		.style("top", 20 + "px")
  	   		.style("left", margin.left + "px")
  	   		.style("height", (height + margin.bottom + 70) + "px");
-
- 	   	var benchmark_dates = [];
-
- 	   	benchmark_types.forEach(function(type){
- 	   		var date = new Date(alldates[0].split("-")[0], +alldates[0].split("-")[1]-1, alldates[0].split("-")[2]);
- 	   		if (type == "HR") {
- 	   			date.setDate(date.getDate() + 30);
- 	   		} else if (type == "BM" && benchmark_match) {
- 	   			date.setDate(date.getDate() + +benchmark_match);
- 	   		} else if (type == "LR" && benchmark_match) {
- 	   			date.setDate(date.getDate() + (+benchmark_match + 100));
- 	   		}
-
- 	   		var datefound = false;
- 	   		var usedate, date2;
- 	   		alldates.forEach(function(d){
- 	   			date2 = new Date(d.split("-")[0], +d.split("-")[1]-1, d.split("-")[2]);;
- 	   			if ((date2 > date) && !datefound) {
- 	   				usedate = date2;
- 	   				datefound = true;
- 	   			}
- 	   		})
-
- 	   		if (usedate) {
- 	   			usedate = usedate.getFullYear() + "-" + (String(usedate.getMonth()+1)).padStart(2,'0') + "-" + (String(usedate.getDate()).padStart(2,'0'));
- 	   		}
-
- 	   		benchmark_dates.push(usedate)
- 	   	})
 
  	   	benchmark_types.forEach(function(type,i){
  	   		if (benchmark_dates[i]) {
@@ -396,14 +382,13 @@ function SLChart() {
  	   		}
  	   	})
 
-
-
  	   	var actionlogg = sel.append("div").attr("class", "g-action-log-cont")
+ 	   	console.log(action_log_filtered)
  	   	action_log_filtered.forEach(function(d,i){
  	   		var logg = actionlogg.append("div")
  	   			.attr("class", "g-action-log g-action-log-" + i)
  	   			.style("top", (yCum(d.usey) + margin.top - 25) + "px")
- 	   			.style("left", (xBar(d.usedate) + margin.left) + "px")
+ 	   			.style("left", (xBar(d["Action Date"]) + margin.left) + "px")
 
  	   		var fullcode = code.filter(a => a["Strategy-code"] == d.Code)[0];
  	   		fullcode = fullcode ? fullcode.Strategy : "";

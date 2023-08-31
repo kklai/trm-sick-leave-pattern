@@ -148,6 +148,10 @@ header p {
   fill: teal;
 }
 
+.g-slc-fill.g-highlight {
+  fill: #004646;
+}
+
 .g-slc-fill-priv {
   fill: orange;
 }
@@ -161,6 +165,11 @@ header p {
 }
 
 .g-line.g-cum-stroke {
+  stroke-width: 1.5;
+}
+
+.g-line.g-benchmark-stroke {
+  stroke: #999;
   stroke-width: 1.5;
 }
 

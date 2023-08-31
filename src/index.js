@@ -1,4 +1,4 @@
-2import React,{Component} from 'react';
+import React,{Component} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import SLChart from './SLChart'
