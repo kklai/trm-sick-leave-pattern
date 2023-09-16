@@ -297,12 +297,12 @@ header p {
   border-radius: 3px;
   text-align: center;
   position: relative;
+  border: 1px solid #fff;
 }
 
 .g-action-highlighted {
   margin-top: -12px;
   z-index: 20;
-  border: 1px solid #fff;
 }
 
 .g-action-log-inner:after {

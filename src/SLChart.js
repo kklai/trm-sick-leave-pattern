@@ -137,7 +137,7 @@ function SLChart() {
 		const formatMonthYear = d3.timeFormat("%b %Y");
 		const formatMonth = d3.timeFormat("%b");
 		let width = d3.select(".g-linechart").node().getBoundingClientRect().width;
-		let margin = {top: 50, right: 80, bottom: 60, left: 25}
+		let margin = {top: 50, right: 100, bottom: 60, left: 25}
 		const xBar = d3.scaleBand().domain(datearray).range([0,width-margin.left-margin.right]).padding(0.1);
 		const xAxis = d3.axisBottom(xBar)
 			.tickValues(tickDates)
@@ -195,17 +195,27 @@ function SLChart() {
 	 	    	.x(d => xBar(d.date))
 	 	    	.y(d => yCum(d["Cumulative SL"]))
 
-	 	    let lineChartPath = svg.append("g")
+	 	    svg.append("g")
 	 	    	.append("path")
 	 	    	.attr("class", "g-line g-cum-stroke")
 	 	    	.datum(data)
 	 	    	.attr("d", line)
 
 	 	    let lastpt = data[data.length - 1];
+	 	    if (lastpt.datef != enddatef) {
+	 	    	svg.append("g")
+		 	    	.append("path")
+		 	    	.attr("class", "g-line g-cum-stroke")
+		 	    	.style("stroke", "#999")
+		 	    	.style("stroke-dasharray", "2 4")
+		 	    	.datum([lastpt, {date: formatDate(enddatef), "Cumulative SL": lastpt["Cumulative SL"]}])
+		 	    	.attr("d", line)
+	 	    }
+
 	 	    let lastptg = svg.append("g")
-	 	    	.attr("transform", "translate(" + (xBar(lastpt.date)) + "," + (yCum(lastpt["Cumulative SL"])-25) + ")");
+	 	    	.attr("transform", "translate(" + (xBar(formatDate(enddatef))+8) + "," + (yCum(lastpt["Cumulative SL"])+5) + ")");
 			lastptg.append("text")
-				.text(formatDateDisplay(lastpt.datef))
+				.text(formatDate(enddatef))
 			lastptg.append("text")
 				.style("font-weight", 700)
 				.attr("y", 14)
@@ -275,6 +285,7 @@ function SLChart() {
 	 	   	var pos = getPos();
 	 	   	var keepchecking = true;
 	 	   	var nomoreoverlap = false;
+	 	   	var newtop = 1000;
 	 	   	while (keepchecking) {
 	 	   		nomoreoverlap = true;
 	 	   		pos.forEach(function(d,checkindex){
@@ -289,6 +300,9 @@ function SLChart() {
 	 	   					var rect2top = +rect2el.style("top").replace("px", "");
 	 	   					var rect1height = +rect1el.style("height").replace("px", "");
 	 	   					var rect1newtop = (rect2top - rect1height - 0.5);
+	 	   					if (rect1newtop < newtop) {
+	 	   						newtop = rect1newtop;
+	 	   					}
 	 	   					var pointerheight = rect1.ogtop - rect1newtop;
 	 	   					rect1el.style("top", rect1newtop + "px");
 	 	   					pos[checkindex].pos = rect1el.node().getBoundingClientRect();
@@ -303,6 +317,8 @@ function SLChart() {
 	 	   			keepchecking = false;
 	 	   		}
 	 	   	}
+
+	 	   	sel.style("margin-top", Math.abs(newtop) + "px")
 
 	 	   	function onMouseOverActionLog(d){
 	 	   		var el = d3.select(this)
