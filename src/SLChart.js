@@ -228,14 +228,29 @@ function SLChart() {
 	 	   		.style("height", (height + margin.bottom - 30) + "px");
 
 	 	   	benchmark_types.forEach(function(type,i){
-	 	   		if (benchmark_dates[i]) {
-	 	   			benchmark_cont.append("div")
-	 	   				.attr("class", "g-benchmark-line")
-	 	   				.style("left", (xBar(benchmark_dates[i]) - 2) + "px")
-	 	   				.append("div")
-	 	   				.attr("class", "g-benchmark-text")
-	 	   				.text(type)
-	 	   		}
+	 	   		if (type == "BM") {
+	 	   			
+	 	   			let posx = xBar(benchmark_dates[i]);
+	 	   			let posy = yCum(benchmark_match);
+
+	 	   			svg.append("path")
+	 	   				.style("stroke", "#cc0000")
+	 	   				.style("stroke-width", 2)
+	 	   				.attr("d", "M0," + height + " L" + posx + "," + posy)
+
+	 	   			svg.append("text")
+	 	   				.style("fill", "#cc0000")
+	 	   				.style("font-weight", "bold")
+	 	   				.attr("transform", "translate(" + (posx+5) + "," + (posy) + ")")
+	 	   				.text("BM")
+	 	   	 	} else if (benchmark_dates[i]) {
+ 	   	 			benchmark_cont.append("div")
+ 	   	 				.attr("class", "g-benchmark-line")
+ 	   	 				.style("left", (xBar(benchmark_dates[i]) - 2) + "px")
+ 	   	 				.append("div")
+ 	   	 				.attr("class", "g-benchmark-text")
+ 	   	 				.text(type)
+	 	   	 	}
 	 	   	})
 
 	 	   	action_log_filtered.sort((a,b) => b.datef - a.datef);
