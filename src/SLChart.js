@@ -1,6 +1,6 @@
 import React, {Component, useEffect} from 'react';
 import * as d3 from "d3";
-import data from './data/35695.json';
+import data from './data/36264.json';
 import action_log from './data/action_log.json';
 import code from './data/code.json';
 import benchmark from './data/benchmark.json';
@@ -33,10 +33,11 @@ function SLChart() {
 
 	function drawChart() {
 		console.clear();
-		var ref = "35695";
+		var ref = "36264";
 		var action_log_filtered = action_log.filter(d => d["TRM Ref"] == ref);
-		data = data.filter(d => d["Issue Date"] && d["Issue Date"].indexOf("-") > -1 && d['Cumulative SL']);
+		data = data.filter(d => d["Doctor Label"] == "DOA" || (d["Issue Date"] && d["Issue Date"].indexOf("-") > -1 && d['Cumulative SL']));
 
+		var datadates = data.map(d => d["Issue Date"]);
 		var startdate = data[0]["Issue Date"];
 		var enddate = data[data.length - 1]["Issue Date"];
 		var startdatef = (new Date(startdate)).addDays(1)
@@ -201,6 +202,7 @@ function SLChart() {
 	 	    	.datum(data)
 	 	    	.attr("d", line)
 
+
 	 	    let lastpt = data[data.length - 1];
 	 	    if (lastpt.datef != enddatef) {
 	 	    	svg.append("g")
@@ -257,6 +259,7 @@ function SLChart() {
 	 	   	var actionlogg = sel.append("div").attr("class", "g-action-log-cont")
 	 	   	action_log_filtered.forEach(function(d,i){
 	 	   		let ypos = yCum(d.usey)
+
 	 	   		var logg = actionlogg.append("div")
 	 	   			.attr("class", "g-action-log g-action-log-" + i)
 	 	   			.style("top", (ypos + margin.top - 28) + "px")
@@ -300,7 +303,7 @@ function SLChart() {
 	 	   	var pos = getPos();
 	 	   	var keepchecking = true;
 	 	   	var nomoreoverlap = false;
-	 	   	var newtop = 1000;
+	 	   	var newtop = 0;
 	 	   	while (keepchecking) {
 	 	   		nomoreoverlap = true;
 	 	   		pos.forEach(function(d,checkindex){
@@ -356,8 +359,8 @@ function SLChart() {
 
 			let sel = d3.select(".g-barchart").html("");
 			let width = sel.node().getBoundingClientRect().width;
-			margin.top = 20;
-			let height = 150;
+			margin.top = 50;
+			let height = 200;
 			let svg = sel.append("svg")
 			    .attr("width", width)
 			    .attr("height", height)
@@ -378,6 +381,19 @@ function SLChart() {
 			    .style("visibility", "hidden")
 			    .text("I'm a circle!");
 
+
+			// calculate width for each bar
+			data.forEach(function(d,i){
+				let barW = xBar(d.enddate) - xBar(d.date) - xBar.bandwidth();
+				if (data[i+1]) {
+					let overlap = (xBar(d.date) + barW) - xBar(data[i+1].date)
+					if (overlap > 0) {
+						barW = barW - overlap;
+					}
+				}
+				d.barW = barW < 0 ? xBar.bandwidth() : barW;
+			})
+
 			svg.append("g")
 			.selectAll("rect")
 			.data(data)
@@ -394,9 +410,10 @@ function SLChart() {
 			.attr("x", d => xBar(d.date))
 			.attr("y", d => yDay(d["SLC Total"]))
 			.attr("height", d => yDay(0) - yDay(d["SLC Total"]))
-			.attr("width", d => (xBar(d.enddate) - xBar(d.date)))
-			// .attr("width", d => (xBar(d.enddate) - xBar(d.date) - xBar.bandwidth()))
+			// .attr("width", d => xBar.bandwidth())
+			.attr("width", d => d.barW)
 			.style("stroke", "#fff")
+			.style("stroke-width", 0.8)
 			.on("mouseover", function(){
 				d3.select(this).classed("g-rect-highlight", true);
 	    	  	return tooltip.style("visibility", "visible");
@@ -436,6 +453,31 @@ function SLChart() {
 				.attr("transform", "translate(0,0)")
 				.call(yAxisDay);
 
+
+
+			// code to add alert
+			let alertDate = ["2022-12-19", "2022-11-22", "2021-12-06"];
+			alertDate.forEach(function(d){
+				let filtered = data.filter(a => a.date == d)
+				let row = filtered[filtered.length - 1];
+
+				if (row) {
+					let g = svg.append("g")
+						.attr("transform", "translate(" + (xBar(row.date)+(row.barW/2)) + "," + yDay(row["SLC Total"]) + ")")
+
+					g.append("path")
+						.style("fill", "#dd0000")
+						.attr("transform", "translate(0,-3)")
+						.attr("d", "M0,0 L5,-10 L3,-10 L3,-26 L-3,-26 L-3,-10 L-5,-10")
+
+					g.append("text")
+						.style("font-size", "12px")
+						.attr("text-anchor", "middle")
+						.attr("y", -35)
+						.text("Alert")
+				}
+			})
+
 		}
  	   	
 
@@ -447,7 +489,7 @@ function SLChart() {
 	  	<div className="picker">
 	  	  <label>TRM Reference</label>
 	  	  <select name="ref" id="ref">
-	  	    <option value="35695">35695</option>
+	  	    <option value="36264">36264</option>
 	  	  </select>
 	  	</div>
 	  	<h3>Accumulated Sick Leave Days</h3>
